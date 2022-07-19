@@ -1,8 +1,23 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Server.DataInitializers;
+using Server.Infrastructure;
+using Server.Interfaces.DataInitializerInterfaces;
+using Server.Interfaces.RepositoryInterfaces;
+using Server.Interfaces.ServiceInterfaces;
+using Server.Interfaces.TokenMakerInterfaces;
+using Server.Interfaces.UnitOfWorkInterfaces;
+using Server.Interfaces.ValidationInterfaces;
 using Server.Mapping;
+using Server.Models;
+using Server.Repositories;
+using Server.Services;
+using Server.TokenMakers;
+using Server.UnitOfWork;
+using Server.Validations;
 using System.Text;
 
 string _cors = "cors";
@@ -39,7 +54,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddAuthorization(options =>
 {
-    //options.AddPolicy("SamoOdabrani", policy => policy.RequireClaim("Neki_moj_claim")); //Ovde mozemo kreirati pravilo za validaciju nekog naseg claima
+    options.AddPolicy("SystemUser", policy => policy.RequireClaim("Sys_user")); //Ovde mozemo kreirati pravilo za validaciju nekog naseg claima
 });
 
 //Dodajemo semu autentifikacije i podesavamo da se radi o JWT beareru
@@ -72,32 +87,41 @@ builder.Services.AddCors(options =>
 });
 
 
-//builder.Services.AddScoped<IStudentService, StudentService>();
-//builder.Services.AddScoped<IDataInitializer, DataInitializer>();
-//services.AddScoped<IStudentService, StudentService>();
+//services
+builder.Services.AddScoped<IUserService, UserService>();
 
-//registracija db contexta u kontejneru zavisnosti, njegov zivotni vek je Scoped
-//builder.Services.AddDbContext<TestDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("TestDatabase")));
+//validations
+builder.Services.AddScoped<IValidation<User>, UserValidation>();
+
+//data initializers
+builder.Services.AddScoped<IUserDataInitializer, UserDataInitializer>();
+builder.Services.AddScoped<IDataInitializer, DataInitializer>();
+
+//factories
+builder.Services.AddScoped<ITokenMakerFactory, TokenMakerFactory>();
+
+//registracija za svaki Repository, UnitOfWork i DbContext, sve je scoped(ista instanca u okviru jednog HTTP zahteva)
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddDbContext<BusLineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("BusLineDatabase")));
 
 //Registracija mapera u kontejneru, zivotni vek singleton
 var mapperConfig = new MapperConfiguration(mc =>
 {
-    mc.AddProfile(new MappingProfile());
+    mc.AddProfile(new UserMappingProfile());
 });
 
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
 
-//builder.Services.BuildServiceProvider().GetRequiredService<IDataInitializer>().InitializeData();
-//var myService = builder.Services.BuildServiceProvider().CreateScope().ServiceProvider.GetRequiredService<IDataInitializer>().InitializeData();
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     // koristi se za inicijalizaciju podataka
-    //scope.ServiceProvider.GetRequiredService<IDataInitializer>().InitializeData();
+    scope.ServiceProvider.GetRequiredService<IDataInitializer>().InitializeData();
 }
-//app.Services.GetService<IDataInitializer>().InitializeData();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
