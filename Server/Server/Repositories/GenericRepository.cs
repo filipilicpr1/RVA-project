@@ -13,24 +13,29 @@ namespace Server.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<T> AddAsync(T entity)
+        public async Task<T> Add(T entity)
         {
             await _dbContext.Set<T>().AddAsync(entity);
             return entity;
         }
 
-        public void Add(T entity)
+        public void AddRangeSync(List<T> entities)
+        {
+            _dbContext.Set<T>().AddRange(entities);
+        }
+
+        public void AddSync(T entity)
         {
             _dbContext.Set<T>().Add(entity);
         }
 
-        public async Task<List<T>> GetAllAsync()
+        public async Task<List<T>> GetAll()
         {
             List<T> entities = await _dbContext.Set<T>().ToListAsync();
             return entities;
         }
 
-        public List<T> GetAll()
+        public List<T> GetAllSync()
         {
             List<T> entities = _dbContext.Set<T>().ToList();
             return entities;

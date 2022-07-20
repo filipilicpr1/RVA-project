@@ -95,6 +95,11 @@ builder.Services.AddScoped<IValidation<User>, UserValidation>();
 
 //data initializers
 builder.Services.AddScoped<IUserDataInitializer, UserDataInitializer>();
+builder.Services.AddScoped<ICountryDataInitializer, CountryDataInitializer>();
+builder.Services.AddScoped<IManufacturerDataInitializer, ManufacturerDataInitializer>();
+builder.Services.AddScoped<ICityDataInitializer, CityDataInitializer>();
+builder.Services.AddScoped<IBusLineDataInitializer, BusLineDataInitializer>();
+builder.Services.AddScoped<IBusDataInitializer, BusDataInitializer>();
 builder.Services.AddScoped<IDataInitializer, DataInitializer>();
 
 //factories
@@ -102,6 +107,11 @@ builder.Services.AddScoped<ITokenMakerFactory, TokenMakerFactory>();
 
 //registracija za svaki Repository, UnitOfWork i DbContext, sve je scoped(ista instanca u okviru jednog HTTP zahteva)
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
+builder.Services.AddScoped<IManufacturerRepository, ManufacturerRepository>();
+builder.Services.AddScoped<ICityRepository, CityRepository>();
+builder.Services.AddScoped<IBusLineRepository, BusLineRepository>();
+builder.Services.AddScoped<IBusRepository, BusRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddDbContext<BusLineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("BusLineDatabase")));
 

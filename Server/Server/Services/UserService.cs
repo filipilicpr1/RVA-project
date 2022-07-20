@@ -55,8 +55,8 @@ namespace Server.Services
                 throw new Exception(result.Message);
             }
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
-            await _unitOfWork.Users.AddAsync(user);
-            await _unitOfWork.SaveAsync();
+            await _unitOfWork.Users.Add(user);
+            await _unitOfWork.Save();
             return _mapper.Map<DisplayUserDTO>(user);
         }
 
@@ -74,7 +74,7 @@ namespace Server.Services
             {
                 throw new Exception(result.Message);
             }
-            await _unitOfWork.SaveAsync();
+            await _unitOfWork.Save();
             return _mapper.Map<DisplayUserDTO>(user);
         }
     }

@@ -2,6 +2,6 @@
 {
     public interface IUserDataInitializer
     {
-        void InitializeData();
+        void InitializeUserData();
     }
 }
