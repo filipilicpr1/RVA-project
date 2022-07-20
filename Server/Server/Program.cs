@@ -90,6 +90,7 @@ builder.Services.AddCors(options =>
 //services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICountryService, CountryService>();
+builder.Services.AddScoped<IManufacturerService, ManufacturerService>();
 
 //validations
 builder.Services.AddScoped<IValidation<User>, UserValidation>();
@@ -121,6 +122,7 @@ var mapperConfig = new MapperConfiguration(mc =>
 {
     mc.AddProfile(new UserMappingProfile());
     mc.AddProfile(new CountryMappingProfile());
+    mc.AddProfile(new ManufacturerMappingProfile());
 });
 
 IMapper mapper = mapperConfig.CreateMapper();
