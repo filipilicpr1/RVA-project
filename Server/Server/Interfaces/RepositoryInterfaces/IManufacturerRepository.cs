@@ -5,5 +5,6 @@ namespace Server.Interfaces.RepositoryInterfaces
     public interface IManufacturerRepository : IGenericRepository<Manufacturer>
     {
         Manufacturer FindByNameSync(string name);
+        Task<List<Manufacturer>> GetAllDistinct();
     }
 }

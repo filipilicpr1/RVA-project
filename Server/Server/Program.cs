@@ -89,6 +89,7 @@ builder.Services.AddCors(options =>
 
 //services
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICountryService, CountryService>();
 
 //validations
 builder.Services.AddScoped<IValidation<User>, UserValidation>();
@@ -119,6 +120,7 @@ builder.Services.AddDbContext<BusLineDbContext>(options => options.UseSqlServer(
 var mapperConfig = new MapperConfiguration(mc =>
 {
     mc.AddProfile(new UserMappingProfile());
+    mc.AddProfile(new CountryMappingProfile());
 });
 
 IMapper mapper = mapperConfig.CreateMapper();
