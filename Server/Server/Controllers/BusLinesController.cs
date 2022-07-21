@@ -80,5 +80,23 @@ namespace Server.Controllers
                 return BadRequest(errorDTO);
             }
         }
+
+        [HttpPut("{id}/city")]
+        [Authorize(Policy = "SystemUser")]
+        public async Task<IActionResult> AddCity(int id, [FromBody] AddCityDTO addCityDTO)
+        {
+            try
+            {
+                addCityDTO.BusLineId = id;
+                await _busLineService.AddCity(addCityDTO);
+                SuccessDTO successDTO = new SuccessDTO() { Message = "City added to the bus line" };
+                return Ok(successDTO);
+            }
+            catch (Exception e)
+            {
+                ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
+                return BadRequest(errorDTO);
+            }
+        }
     }
 }

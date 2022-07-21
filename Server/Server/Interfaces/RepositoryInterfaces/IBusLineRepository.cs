@@ -6,6 +6,7 @@ namespace Server.Interfaces.RepositoryInterfaces
     {
         BusLine FindByLabelSync(string label);
         Task<BusLine> FindByLabel(string label);
+        Task<BusLine> FindComplete(int id);
         Task<BusLine> GetDetailedById(int id);
     }
 }

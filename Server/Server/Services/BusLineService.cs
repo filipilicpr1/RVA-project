@@ -20,6 +20,34 @@ namespace Server.Services
             _busLineValidation = busLineValidation;
         }
 
+        public async Task AddCity(AddCityDTO addCityDTO)
+        {
+            BusLine busLine = await _unitOfWork.BusLines.FindComplete(addCityDTO.BusLineId);
+            if(busLine == null)
+            {
+                throw new Exception("Invalid bus line");
+            }
+            City city = await _unitOfWork.Cities.Find(addCityDTO.CityId);
+            if(city == null)
+            {
+                throw new Exception("Invalid city");
+            }
+            foreach(var c in busLine.Cities)
+            {
+                if(c.Id == city.Id || String.Equals(c.Name.ToLower(), city.Name.ToLower()))
+                {
+                    throw new Exception("Bus line already has city with name " + city.Name);
+                }
+            }
+            if (busLine.Timestamp != addCityDTO.Timestamp && !addCityDTO.Override)
+            {
+                throw new Exception("Conflict");
+            }
+            busLine.Cities.Add(city);
+            busLine.Timestamp++;
+            await _unitOfWork.Save();
+        }
+
         public async Task<DisplayBusLineDTO> CreateBusLine(NewBusLineDTO newBusLineDTO)
         {
             BusLine busLine = _mapper.Map<BusLine>(newBusLineDTO);

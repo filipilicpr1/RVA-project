@@ -24,6 +24,12 @@ namespace Server.Repositories
             return busLine;
         }
 
+        public async Task<BusLine> FindComplete(int id)
+        {
+            BusLine busLine = await _dbContext.BusLines.Include(b => b.Cities).FirstOrDefaultAsync(b => b.Id == id);
+            return busLine;
+        }
+
         public async Task<BusLine> GetDetailedById(int id)
         {
             BusLine busLine = await _dbContext.BusLines.Include(b => b.Buses).Include(b => b.Cities).FirstOrDefaultAsync(b => b.Id == id); 
