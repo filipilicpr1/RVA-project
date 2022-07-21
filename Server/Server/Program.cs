@@ -91,9 +91,11 @@ builder.Services.AddCors(options =>
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICountryService, CountryService>();
 builder.Services.AddScoped<IManufacturerService, ManufacturerService>();
+builder.Services.AddScoped<IBusLineService, BusLineService>();
 
 //validations
 builder.Services.AddScoped<IValidation<User>, UserValidation>();
+builder.Services.AddScoped<IValidation<BusLine>, BusLineValidation>();
 
 //data initializers
 builder.Services.AddScoped<IUserDataInitializer, UserDataInitializer>();
@@ -123,6 +125,9 @@ var mapperConfig = new MapperConfiguration(mc =>
     mc.AddProfile(new UserMappingProfile());
     mc.AddProfile(new CountryMappingProfile());
     mc.AddProfile(new ManufacturerMappingProfile());
+    mc.AddProfile(new BusLineMappingProfile());
+    mc.AddProfile(new BusMappingProfile());
+    mc.AddProfile(new CityMappingProfile());
 });
 
 IMapper mapper = mapperConfig.CreateMapper();

@@ -8,25 +8,25 @@ namespace Server.Validations
         public ValidationResult Validate(User entity)
         {
             ValidationResult result = new ValidationResult() { IsValid = true, Message = ""};
-            if (String.IsNullOrEmpty(entity.Username.Trim()))
+            if (String.IsNullOrWhiteSpace(entity.Username))
             {
                 result.IsValid = false;
                 result.Message = "Invalid username";
                 return result;
             }
-            if (String.IsNullOrEmpty(entity.Password.Trim()))
+            if (String.IsNullOrWhiteSpace(entity.Password))
             {
                 result.IsValid = false;
                 result.Message = "Invalid password";
                 return result;
             }
-            if (String.IsNullOrEmpty(entity.Name.Trim()))
+            if (String.IsNullOrWhiteSpace(entity.Name))
             {
                 result.IsValid = false;
                 result.Message = "Invalid name";
                 return result;
             }
-            if (String.IsNullOrEmpty(entity.LastName.Trim()))
+            if (String.IsNullOrWhiteSpace(entity.LastName))
             {
                 result.IsValid = false;
                 result.Message = "Invalid last name";

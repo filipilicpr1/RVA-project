@@ -8,6 +8,6 @@ namespace Server.Dto.UserDto
         public string Password { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
-        public EUserType UserType { get; set; }
+        public string UserType { get; set; }
     }
 }
