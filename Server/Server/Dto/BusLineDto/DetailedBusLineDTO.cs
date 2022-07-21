@@ -10,5 +10,6 @@ namespace Server.Dto.BusLineDto
         public string BusLineType { get; set; }
         public List<DisplayBusDTO> Buses { get; set; }
         public List<DisplayCityDTO> Cities { get; set; }
+        public int Timestamp { get; set; }
     }
 }

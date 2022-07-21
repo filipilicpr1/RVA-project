@@ -9,5 +9,6 @@ namespace Server.Models
         public EBusLineType BusLineType { get; set; }
         public List<Bus> Buses { get; set; }
         public List<City> Cities { get; set; } = new List<City>();
+        public int Timestamp { get; set; }
     }
 }

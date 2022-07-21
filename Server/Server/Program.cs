@@ -92,10 +92,12 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICountryService, CountryService>();
 builder.Services.AddScoped<IManufacturerService, ManufacturerService>();
 builder.Services.AddScoped<IBusLineService, BusLineService>();
+builder.Services.AddScoped<ICityService, CityService>();
 
 //validations
 builder.Services.AddScoped<IValidation<User>, UserValidation>();
 builder.Services.AddScoped<IValidation<BusLine>, BusLineValidation>();
+builder.Services.AddScoped<IValidation<City>, CityValidation>();
 
 //data initializers
 builder.Services.AddScoped<IUserDataInitializer, UserDataInitializer>();

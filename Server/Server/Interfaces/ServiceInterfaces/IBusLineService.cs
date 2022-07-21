@@ -7,5 +7,6 @@ namespace Server.Interfaces.ServiceInterfaces
         Task<List<DisplayBusLineDTO>> GetAll();
         Task<DetailedBusLineDTO> GetById(int id);
         Task<DisplayBusLineDTO> CreateBusLine(NewBusLineDTO newBusLineDTO);
+        Task<DisplayBusLineDTO> UpdateBusLine(UpdateBusLineDTO updateBusLineDTO);
     }
 }

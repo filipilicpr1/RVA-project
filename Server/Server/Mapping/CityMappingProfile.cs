@@ -9,6 +9,7 @@ namespace Server.Mapping
         public CityMappingProfile()
         {
             CreateMap<City, DisplayCityDTO>().ReverseMap();
+            CreateMap<City, NewCityDTO>().ReverseMap();
         }
     }
 }

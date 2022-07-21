@@ -79,6 +79,9 @@ namespace Server.Migrations
                     b.Property<string>("Label")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Timestamp")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("BusLines");

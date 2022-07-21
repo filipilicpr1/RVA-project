@@ -11,6 +11,7 @@ namespace Server.Mapping
             CreateMap<BusLine, DisplayBusLineDTO>().ReverseMap();
             CreateMap<BusLine, DetailedBusLineDTO>().ReverseMap();
             CreateMap<BusLine, NewBusLineDTO>().ReverseMap();
+            CreateMap<BusLine, UpdateBusLineDTO>().ReverseMap();
         }
     }
 }

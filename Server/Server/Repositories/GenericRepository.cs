@@ -29,6 +29,12 @@ namespace Server.Repositories
             _dbContext.Set<T>().Add(entity);
         }
 
+        public async Task<T> Find(int id)
+        {
+            T entity = await _dbContext.Set<T>().FindAsync(id);
+            return entity;
+        }
+
         public async Task<List<T>> GetAll()
         {
             List<T> entities = await _dbContext.Set<T>().ToListAsync();
@@ -39,6 +45,11 @@ namespace Server.Repositories
         {
             List<T> entities = _dbContext.Set<T>().ToList();
             return entities;
+        }
+
+        public void Remove(T entity)
+        {
+            _dbContext.Set<T>().Remove(entity);
         }
     }
 }

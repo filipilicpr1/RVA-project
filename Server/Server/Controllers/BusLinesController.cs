@@ -64,5 +64,21 @@ namespace Server.Controllers
                 return BadRequest(errorDTO);
             }
         }
+
+        [HttpPut]
+        [Authorize(Policy = "SystemUser")]
+        public async Task<IActionResult> Put([FromBody] UpdateBusLineDTO updateBusLineDTO)
+        {
+            try
+            {
+                DisplayBusLineDTO displayBusLineDTO = await _busLineService.UpdateBusLine(updateBusLineDTO);
+                return Ok(displayBusLineDTO);
+            }
+            catch (Exception e)
+            {
+                ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
+                return BadRequest(errorDTO);
+            }
+        }
     }
 }
