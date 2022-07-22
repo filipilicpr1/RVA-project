@@ -11,5 +11,11 @@ namespace Server.Repositories
         {
 
         }
+
+        public async Task<Bus> FindByName(string name)
+        {
+            Bus bus = await _dbContext.Buses.SingleOrDefaultAsync(b => String.Equals(b.Name.ToLower(), name.ToLower()));
+            return bus;
+        }
     }
 }

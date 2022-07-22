@@ -8,5 +8,6 @@ namespace Server.Interfaces.RepositoryInterfaces
         Task<BusLine> FindByLabel(string label);
         Task<BusLine> FindComplete(int id);
         Task<BusLine> GetDetailedById(int id);
+        Task<List<BusLine>> GetAllDetailed();
     }
 }

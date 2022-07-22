@@ -23,8 +23,8 @@ namespace Server.Controllers
         {
             try
             {
-                List<DisplayBusLineDTO> displayBusLineDTOs = await _busLineService.GetAll();
-                return Ok(displayBusLineDTOs);
+                List<DetailedBusLineDTO> detailedBusLineDTOs = await _busLineService.GetAll();
+                return Ok(detailedBusLineDTOs);
             }
             catch (Exception e)
             {
@@ -49,7 +49,7 @@ namespace Server.Controllers
             }
         }
 
-        [HttpPost("new")]
+        [HttpPost]
         [Authorize(Policy = "SystemUser")]
         public async Task<IActionResult> Post([FromBody] NewBusLineDTO newBusLineDTO)
         {
@@ -108,6 +108,24 @@ namespace Server.Controllers
                 removeCityDTO.BusLineId = id;
                 await _busLineService.RemoveCity(removeCityDTO);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "City removed from the bus line" };
+                return Ok(successDTO);
+            }
+            catch (Exception e)
+            {
+                ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
+                return BadRequest(errorDTO);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        [Authorize(Policy = "SystemUser")]
+        public async Task<IActionResult> Delete(int id, [FromBody] DeleteBusLineDTO deleteBusLineDTO)
+        {
+            try
+            {
+                deleteBusLineDTO.Id = id;
+                await _busLineService.DeleteBusLine(deleteBusLineDTO);
+                SuccessDTO successDTO = new SuccessDTO() { Message = "Bus line deleted" };
                 return Ok(successDTO);
             }
             catch (Exception e)

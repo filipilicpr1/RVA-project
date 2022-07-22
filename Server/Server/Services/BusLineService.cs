@@ -66,10 +66,25 @@ namespace Server.Services
             return _mapper.Map<DisplayBusLineDTO>(busLine);
         }
 
-        public async Task<List<DisplayBusLineDTO>> GetAll()
+        public async Task DeleteBusLine(DeleteBusLineDTO deleteBusLineDTO)
         {
-            List<BusLine> busLines = await _unitOfWork.BusLines.GetAll();
-            return _mapper.Map<List<DisplayBusLineDTO>>(busLines);
+            BusLine busLine = await _unitOfWork.BusLines.Find(deleteBusLineDTO.Id);
+            if(busLine == null)
+            {
+                throw new Exception("Bus line with id " + deleteBusLineDTO.Id + " does not exist");
+            }
+            if(busLine.Timestamp != deleteBusLineDTO.Timestamp && !deleteBusLineDTO.Override)
+            {
+                throw new Exception("Conflict");
+            }
+            _unitOfWork.BusLines.Remove(busLine);
+            await _unitOfWork.Save();
+        }
+
+        public async Task<List<DetailedBusLineDTO>> GetAll()
+        {
+            List<BusLine> busLines = await _unitOfWork.BusLines.GetAllDetailed();
+            return _mapper.Map<List<DetailedBusLineDTO>>(busLines);
         }
 
         public async Task<DetailedBusLineDTO> GetById(int id)

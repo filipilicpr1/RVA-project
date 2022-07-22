@@ -9,6 +9,7 @@ namespace Server.Mapping
         public BusMappingProfile()
         {
             CreateMap<Bus, DisplayBusDTO>().ReverseMap();
+            CreateMap<Bus, NewBusDTO>().ReverseMap();
         }
     }
 }

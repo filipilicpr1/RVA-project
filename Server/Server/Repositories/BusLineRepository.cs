@@ -30,6 +30,12 @@ namespace Server.Repositories
             return busLine;
         }
 
+        public async Task<List<BusLine>> GetAllDetailed()
+        {
+            List<BusLine> busLines = await _dbContext.BusLines.Include(b => b.Buses).Include(b => b.Cities).ToListAsync();
+            return busLines;
+        }
+
         public async Task<BusLine> GetDetailedById(int id)
         {
             BusLine busLine = await _dbContext.BusLines.Include(b => b.Buses).Include(b => b.Cities).FirstOrDefaultAsync(b => b.Id == id); 
