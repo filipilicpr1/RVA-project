@@ -81,7 +81,7 @@ namespace Server.Controllers
             }
         }
 
-        [HttpPut("{id}/city")]
+        [HttpPut("{id}/add-city")]
         [Authorize(Policy = "SystemUser")]
         public async Task<IActionResult> AddCity(int id, [FromBody] AddCityDTO addCityDTO)
         {
@@ -90,6 +90,24 @@ namespace Server.Controllers
                 addCityDTO.BusLineId = id;
                 await _busLineService.AddCity(addCityDTO);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "City added to the bus line" };
+                return Ok(successDTO);
+            }
+            catch (Exception e)
+            {
+                ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
+                return BadRequest(errorDTO);
+            }
+        }
+
+        [HttpPut("{id}/remove-city")]
+        [Authorize(Policy = "SystemUser")]
+        public async Task<IActionResult> RemoveCity(int id, [FromBody] RemoveCityDTO removeCityDTO)
+        {
+            try
+            {
+                removeCityDTO.BusLineId = id;
+                await _busLineService.RemoveCity(removeCityDTO);
+                SuccessDTO successDTO = new SuccessDTO() { Message = "City removed from the bus line" };
                 return Ok(successDTO);
             }
             catch (Exception e)

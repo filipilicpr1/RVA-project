@@ -82,6 +82,31 @@ namespace Server.Services
             return _mapper.Map<DetailedBusLineDTO>(busLine);
         }
 
+        public async Task RemoveCity(RemoveCityDTO removeCityDTO)
+        {
+            BusLine busLine = await _unitOfWork.BusLines.FindComplete(removeCityDTO.BusLineId);
+            if (busLine == null)
+            {
+                throw new Exception("Invalid bus line");
+            }
+            City city = await _unitOfWork.Cities.Find(removeCityDTO.CityId);
+            if (city == null)
+            {
+                throw new Exception("Invalid city");
+            }
+            if (!busLine.Cities.Contains(city))
+            {
+                throw new Exception("Bus line does not go through city with id " + city.Id);
+            }
+            if (busLine.Timestamp != removeCityDTO.Timestamp && !removeCityDTO.Override)
+            {
+                throw new Exception("Conflict");
+            }
+            busLine.Cities.Remove(city);
+            busLine.Timestamp++;
+            await _unitOfWork.Save();
+        }
+
         public async Task<DisplayBusLineDTO> UpdateBusLine(UpdateBusLineDTO updateBusLineDTO)
         {
             BusLine busLine = await _unitOfWork.BusLines.Find(updateBusLineDTO.Id);

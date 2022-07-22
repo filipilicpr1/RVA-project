@@ -9,5 +9,6 @@ namespace Server.Interfaces.ServiceInterfaces
         Task<DisplayBusLineDTO> CreateBusLine(NewBusLineDTO newBusLineDTO);
         Task<DisplayBusLineDTO> UpdateBusLine(UpdateBusLineDTO updateBusLineDTO);
         Task AddCity(AddCityDTO addCityDTO);
+        Task RemoveCity(RemoveCityDTO removeCityDTO);
     }
 }
