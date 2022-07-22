@@ -7,5 +7,6 @@ namespace Server.Interfaces.ServiceInterfaces
         Task<AuthDTO> Login(LoginDTO loginDTO);
         Task<DisplayUserDTO> RegisterUser(NewUserDTO newUserDTO);
         Task<DisplayUserDTO> UpdateUser(UpdateUserDTO updateUserDTO);
+        Task<List<LogDTO>> GetLogs(string username);
     }
 }

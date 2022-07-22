@@ -62,3 +62,5 @@ C:\Users\if170553d\Desktop\Skola\GitHub\RVA-project\Server\Server\obj\Debug\net6
 C:\Users\if170553d\Desktop\Skola\GitHub\RVA-project\Server\Server\obj\Debug\net6.0\Server.pdb
 C:\Users\if170553d\Desktop\Skola\GitHub\RVA-project\Server\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
 C:\Users\if170553d\Desktop\Skola\GitHub\RVA-project\Server\Server\obj\Debug\net6.0\ref\Server.dll
+C:\Users\if170553d\Desktop\Skola\GitHub\RVA-project\Server\Server\bin\Debug\net6.0\Serilog.dll
+C:\Users\if170553d\Desktop\Skola\GitHub\RVA-project\Server\Server\bin\Debug\net6.0\Serilog.Sinks.File.dll

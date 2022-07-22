@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Server.Dto;
 using Server.Dto.CityDto;
+using Server.Enums;
+using Server.Interfaces.Logger;
 using Server.Interfaces.ServiceInterfaces;
 
 namespace Server.Controllers
@@ -12,9 +14,11 @@ namespace Server.Controllers
     public class CitiesController : ControllerBase
     {
         private readonly ICityService _cityService;
-        public CitiesController(ICityService cityService)
+        private readonly ILogging _logger;
+        public CitiesController(ICityService cityService, ILogging logger)
         {
             _cityService = cityService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -23,11 +27,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Getting all cities", ELogType.INFO);
                 List<DisplayCityDTO> displayCityDTOs = await _cityService.GetAllDistinct();
                 return Ok(displayCityDTOs);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -39,11 +45,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Creating new city", ELogType.INFO);
                 DisplayCityDTO displayCityDTO = await _cityService.CreateCity(newCityDTO);
                 return Ok(displayCityDTO);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -55,12 +63,14 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Deleting city with id " + id, ELogType.INFO);
                 await _cityService.DeleteCity(id);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "City deleted" };
                 return Ok(successDTO);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return NotFound(errorDTO);
             }
@@ -72,11 +82,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Getting all available cities for bus line with id " + busLineId, ELogType.INFO);
                 List<DisplayCityDTO> displayCityDTOs = await _cityService.GetAvailable(busLineId);
                 return Ok(displayCityDTOs);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }

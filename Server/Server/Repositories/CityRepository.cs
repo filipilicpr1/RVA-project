@@ -26,19 +26,14 @@ namespace Server.Repositories
 
         public async Task<List<City>> GetAllDistinct()
         {
-            List<string> res = await _dbContext.Cities.Select(c => c.Name).Distinct().ToListAsync();
+            List<string> res = await _dbContext.Cities.Select(c => c.Name.ToLower()).Distinct().ToListAsync();
             List<City> cities = new List<City>();
             foreach (string cityName in res)
             {
-                cities.Add(await _dbContext.Cities.Include(c => c.Country).FirstOrDefaultAsync(c => String.Equals(c.Name, cityName)));
+                cities.Add(await _dbContext.Cities.Include(c => c.Country).FirstOrDefaultAsync(c => String.Equals(c.Name.ToLower(), cityName.ToLower())));
             }
             return cities;
         }
 
-        public async Task<List<City>> GetAvailable(BusLine busLine)
-        {
-            List<City> cities = await _dbContext.Cities.Include(c => c.Country).Include(c => c.BusLines).Where(c => !c.BusLines.Contains(busLine)).ToListAsync();
-            return cities;
-        }
     }
 }

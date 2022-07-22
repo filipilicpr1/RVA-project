@@ -57,13 +57,30 @@ namespace Server.Services
 
         public async Task<List<DisplayCityDTO>> GetAvailable(int id)
         {
-            BusLine busLine = await _unitOfWork.BusLines.Find(id);
+            BusLine busLine = await _unitOfWork.BusLines.FindComplete(id);
             if(busLine == null)
             {
                 throw new Exception("Bus line with id " + id + " does not exist");
             }
-            List<City> cities = await _unitOfWork.Cities.GetAvailable(busLine);
-            return _mapper.Map<List<DisplayCityDTO>>(cities);
+            List<City> cities = await _unitOfWork.Cities.GetAllDistinct();
+            List<City> availableCities = new List<City>();
+            foreach(City city in cities)
+            {
+                bool busLineHasCity = false;
+                foreach(City busLineCity in busLine.Cities)
+                {
+                    if(String.Equals(busLineCity.Name.ToLower(), city.Name.ToLower()))
+                    {
+                        busLineHasCity = true;
+                        break;
+                    }
+                }
+                if (!busLineHasCity)
+                {
+                    availableCities.Add(city);
+                }
+            }
+            return _mapper.Map<List<DisplayCityDTO>>(availableCities);
         }
     }
 }

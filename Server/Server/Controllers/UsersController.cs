@@ -65,5 +65,21 @@ namespace Server.Controllers
                 return BadRequest(errorDTO);
             }
         }
+
+        [HttpGet("logs")]
+        [Authorize(Policy = "SystemUser")]
+        public async Task<IActionResult> GetLogs()
+        {
+            try
+            {
+                List<LogDTO> logs = await _userService.GetLogs(User.Identity.Name);
+                return Ok(logs);
+            }
+            catch (Exception e)
+            {
+                ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
+                return BadRequest(errorDTO);
+            }
+        }
     }
 }

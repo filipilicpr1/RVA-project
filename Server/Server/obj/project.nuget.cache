@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jXolt0afoay9H0c+Ahl7RdBBsH3dAlocGVa6LeT8YD3X/ErzVLXFvCavIwmlEWcV1miAs1Sd6CjzJZzENyG7Eg==",
+  "dgSpecHash": "pV6GdTSDWnWWFJKTV6V17zImRjfnDxyadoKMbaqg1lJnBSy9cYPp1Ic2O/81uFafy9gyg0QtEO8s1CKvRmB+YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\if170553d\\Desktop\\Skola\\GitHub\\RVA-project\\Server\\Server\\Server.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,8 @@
     "C:\\Users\\if170553d\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\if170553d\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\if170553d\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\if170553d\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
+    "C:\\Users\\if170553d\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\if170553d\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
     "C:\\Users\\if170553d\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
     "C:\\Users\\if170553d\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",

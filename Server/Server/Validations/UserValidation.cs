@@ -14,6 +14,12 @@ namespace Server.Validations
                 result.Message = "Invalid username";
                 return result;
             }
+            if(entity.Username.Trim().Contains(' '))
+            {
+                result.IsValid = false;
+                result.Message = "Username must be 1 word";
+                return result;
+            }
             if (String.IsNullOrWhiteSpace(entity.Password))
             {
                 result.IsValid = false;

@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Server.Dto;
 using Server.Dto.BusDto;
+using Server.Enums;
+using Server.Interfaces.Logger;
 using Server.Interfaces.ServiceInterfaces;
 
 namespace Server.Controllers
@@ -12,9 +14,11 @@ namespace Server.Controllers
     public class BusesController : ControllerBase
     {
         private readonly IBusService _busService;
-        public BusesController(IBusService busService)
+        private readonly ILogging _logger;
+        public BusesController(IBusService busService, ILogging logger)
         {
             _busService = busService;
+            _logger = logger;
         }
 
         [HttpPost]
@@ -23,11 +27,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Creating new bus", ELogType.INFO);
                 DisplayBusDTO displayBusDTO = await _busService.CreateBus(newBusDTO);
                 return Ok(displayBusDTO);
             }
             catch(Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -39,6 +45,7 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Deleting bus with id " + id, ELogType.INFO);
                 deleteBusDTO.Id = id;
                 await _busService.DeleteBus(deleteBusDTO);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "Bus deleted" };
@@ -46,6 +53,7 @@ namespace Server.Controllers
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }

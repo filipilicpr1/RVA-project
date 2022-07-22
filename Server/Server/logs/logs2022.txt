@@ -1,0 +1,35 @@
+2022-07-22 22:53:13.704 +02:00 [INF] flyer : Getting all bus lines
+2022-07-22 22:53:48.660 +02:00 [INF] flyer : Creating new bus line
+2022-07-22 22:53:48.759 +02:00 [ERR] flyer : Bus line with label 9B already exists
+2022-07-22 22:54:01.515 +02:00 [INF] flyer : Creating new bus line
+2022-07-22 22:54:35.653 +02:00 [INF] flyer : Updating bus line with id 11
+2022-07-22 22:54:35.751 +02:00 [ERR] flyer : Conflict
+2022-07-22 22:54:56.407 +02:00 [INF] flyer : Updating bus line with id 11
+2022-07-22 22:55:11.014 +02:00 [INF] flyer : Getting all cities
+2022-07-22 22:55:28.714 +02:00 [INF] flyer : Creating new city
+2022-07-22 22:55:36.535 +02:00 [INF] flyer : Creating new city
+2022-07-22 22:55:36.608 +02:00 [ERR] flyer : City with name Nis already exists
+2022-07-22 22:55:48.022 +02:00 [INF] flyer : Getting all cities
+2022-07-22 22:56:11.142 +02:00 [INF] flyer : Adding city with id 14 to bus line with id 11
+2022-07-22 22:56:35.125 +02:00 [INF] flyer : Adding city with id 2 to bus line with id 11
+2022-07-22 22:56:54.933 +02:00 [INF] flyer : Adding city with id 9 to bus line with id 11
+2022-07-22 22:56:55.000 +02:00 [ERR] flyer : Invalid city
+2022-07-22 22:57:01.885 +02:00 [INF] flyer : Adding city with id 10 to bus line with id 11
+2022-07-22 22:57:01.957 +02:00 [ERR] flyer : Bus line already has city with name Novi Sad
+2022-07-22 22:57:28.879 +02:00 [INF] flyer : Getting all bus lines
+2022-07-22 22:58:01.466 +02:00 [INF] flyer : Creating new bus
+2022-07-22 22:58:06.472 +02:00 [INF] flyer : Getting all bus lines
+2022-07-22 22:58:23.157 +02:00 [INF] flyer : Duplicating bus line with id 11
+2022-07-22 23:21:54.578 +02:00 [INF] asdf : Getting all bus lines
+2022-07-22 23:22:19.012 +02:00 [INF] asdf : Deleting bus line with id 144
+2022-07-22 23:22:19.072 +02:00 [ERR] asdf : Bus line with id 144 does not exist
+2022-07-22 23:22:26.259 +02:00 [INF] asdf : Deleting bus line with id 12
+2022-07-22 23:22:30.653 +02:00 [INF] asdf : Getting all bus lines
+2022-07-22 23:22:43.301 +02:00 [INF] asdf : Getting all cities
+2022-07-22 23:23:02.366 +02:00 [INF] asdf : Getting all available cities for bus line with id 11
+2022-07-22 23:33:27.585 +02:00 [INF] admin : Getting all bus lines
+2022-07-22 23:33:38.650 +02:00 [INF] admin : Getting all available cities for bus line with id 2
+2022-07-22 23:33:52.019 +02:00 [INF] admin : Getting all available cities for bus line with id 1
+2022-07-22 23:34:11.357 +02:00 [INF] admin : Getting all available cities for bus line with id 1
+2022-07-22 23:35:01.586 +02:00 [INF] admin : Getting all available cities for bus line with id 2
+2022-07-22 23:35:08.819 +02:00 [INF] admin : Getting all available cities for bus line with id 11

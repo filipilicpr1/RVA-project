@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Server.Dto;
 using Server.Dto.BusLineDto;
+using Server.Enums;
+using Server.Interfaces.Logger;
 using Server.Interfaces.ServiceInterfaces;
 
 namespace Server.Controllers
@@ -12,9 +14,11 @@ namespace Server.Controllers
     public class BusLinesController : ControllerBase
     {
         private readonly IBusLineService _busLineService;
-        public BusLinesController(IBusLineService busLineService)
+        private readonly ILogging _logger;
+        public BusLinesController(IBusLineService busLineService, ILogging logger)
         {
             _busLineService = busLineService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -23,11 +27,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Getting all bus lines", ELogType.INFO);
                 List<DetailedBusLineDTO> detailedBusLineDTOs = await _busLineService.GetAll();
                 return Ok(detailedBusLineDTOs);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -39,11 +45,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Getting bus line with id " + id, ELogType.INFO);
                 DetailedBusLineDTO detailedBusLineDTO = await _busLineService.GetById(id);
                 return Ok(detailedBusLineDTO);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return NotFound(errorDTO);
             }
@@ -55,11 +63,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Creating new bus line", ELogType.INFO);
                 DisplayBusLineDTO displayBusLineDTO = await _busLineService.CreateBusLine(newBusLineDTO);
                 return Ok(displayBusLineDTO);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -71,11 +81,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Updating bus line with id " + updateBusLineDTO.Id, ELogType.INFO);
                 DisplayBusLineDTO displayBusLineDTO = await _busLineService.UpdateBusLine(updateBusLineDTO);
                 return Ok(displayBusLineDTO);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -87,6 +99,7 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Adding city with id " + addCityDTO.CityId + " to bus line with id " + id, ELogType.INFO);
                 addCityDTO.BusLineId = id;
                 await _busLineService.AddCity(addCityDTO);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "City added to the bus line" };
@@ -94,6 +107,7 @@ namespace Server.Controllers
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -105,6 +119,7 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Removing city with id " + removeCityDTO.CityId + " from bus line with id " + id, ELogType.INFO);
                 removeCityDTO.BusLineId = id;
                 await _busLineService.RemoveCity(removeCityDTO);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "City removed from the bus line" };
@@ -112,6 +127,7 @@ namespace Server.Controllers
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -123,6 +139,7 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Deleting bus line with id " + id, ELogType.INFO);
                 deleteBusLineDTO.Id = id;
                 await _busLineService.DeleteBusLine(deleteBusLineDTO);
                 SuccessDTO successDTO = new SuccessDTO() { Message = "Bus line deleted" };
@@ -130,6 +147,7 @@ namespace Server.Controllers
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }
@@ -141,11 +159,13 @@ namespace Server.Controllers
         {
             try
             {
+                _logger.LogMessage(User.Identity.Name + " : Duplicating bus line with id " + id, ELogType.INFO);
                 DetailedBusLineDTO detailedBusLineDTO = await _busLineService.Duplicate(id);
                 return Ok(detailedBusLineDTO);
             }
             catch (Exception e)
             {
+                _logger.LogMessage(User.Identity.Name + " : " + e.Message, ELogType.ERROR);
                 ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
                 return BadRequest(errorDTO);
             }

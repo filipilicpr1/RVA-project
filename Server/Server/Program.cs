@@ -6,11 +6,13 @@ using Microsoft.OpenApi.Models;
 using Server.DataInitializers;
 using Server.Infrastructure;
 using Server.Interfaces.DataInitializerInterfaces;
+using Server.Interfaces.Logger;
 using Server.Interfaces.RepositoryInterfaces;
 using Server.Interfaces.ServiceInterfaces;
 using Server.Interfaces.TokenMakerInterfaces;
 using Server.Interfaces.UnitOfWorkInterfaces;
 using Server.Interfaces.ValidationInterfaces;
+using Server.Logger;
 using Server.Mapping;
 using Server.Models;
 using Server.Repositories;
@@ -85,7 +87,8 @@ builder.Services.AddCors(options =>
                .AllowCredentials();
     });
 });
-
+//logger
+builder.Services.AddSingleton<ILogging, SerilogLogger>();
 
 //services
 builder.Services.AddScoped<IUserService, UserService>();

@@ -7,6 +7,5 @@ namespace Server.Interfaces.RepositoryInterfaces
         City FindByNameSync(string name);
         Task<City> FindByName(string name);
         Task<List<City>> GetAllDistinct();
-        Task<List<City>> GetAvailable(BusLine busLine);
     }
 }
