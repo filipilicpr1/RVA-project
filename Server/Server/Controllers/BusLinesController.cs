@@ -134,5 +134,21 @@ namespace Server.Controllers
                 return BadRequest(errorDTO);
             }
         }
+
+        [HttpPost("{id}/duplicate")]
+        [Authorize(Policy = "SystemUser")]
+        public async Task<IActionResult> Duplicate(int id)
+        {
+            try
+            {
+                DetailedBusLineDTO detailedBusLineDTO = await _busLineService.Duplicate(id);
+                return Ok(detailedBusLineDTO);
+            }
+            catch (Exception e)
+            {
+                ErrorDTO errorDTO = new ErrorDTO() { Message = e.Message };
+                return BadRequest(errorDTO);
+            }
+        }
     }
 }

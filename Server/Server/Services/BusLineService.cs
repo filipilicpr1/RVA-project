@@ -81,6 +81,37 @@ namespace Server.Services
             await _unitOfWork.Save();
         }
 
+        public async Task<DetailedBusLineDTO> Duplicate(int id)
+        {
+            BusLine busLine = await _unitOfWork.BusLines.FindComplete(id);
+            if(busLine == null)
+            {
+                throw new Exception("Bus line with id " + id + " does not exist");
+            }
+            foreach(City city in busLine.Cities)
+            {
+                city.Country = await _unitOfWork.Countries.Find(city.CountryId);
+            }
+            foreach(Bus bus in busLine.Buses)
+            {
+                bus.Manufacturer = await _unitOfWork.Manufacturers.Find(bus.ManufacturerId);
+            }
+            BusLine copyBusLine = busLine.DeepCopy();
+            await _unitOfWork.BusLines.Add(copyBusLine);
+            foreach(City city in copyBusLine.Cities)
+            {
+                await _unitOfWork.Countries.Add(city.Country);
+                await _unitOfWork.Cities.Add(city);
+            }
+            foreach(Bus bus in copyBusLine.Buses)
+            {
+                await _unitOfWork.Manufacturers.Add(bus.Manufacturer);
+                await _unitOfWork.Buses.Add(bus);
+            }
+            await _unitOfWork.Save();
+            return _mapper.Map<DetailedBusLineDTO>(copyBusLine);
+        }
+
         public async Task<List<DetailedBusLineDTO>> GetAll()
         {
             List<BusLine> busLines = await _unitOfWork.BusLines.GetAllDetailed();

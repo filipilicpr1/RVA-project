@@ -11,5 +11,6 @@ namespace Server.Interfaces.ServiceInterfaces
         Task AddCity(AddCityDTO addCityDTO);
         Task RemoveCity(RemoveCityDTO removeCityDTO);
         Task DeleteBusLine(DeleteBusLineDTO deleteBusLineDTO);
+        Task<DetailedBusLineDTO> Duplicate(int id);
     }
 }

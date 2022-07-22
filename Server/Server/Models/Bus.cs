@@ -1,6 +1,8 @@
-﻿namespace Server.Models
+﻿using Server.Interfaces.Prototype;
+
+namespace Server.Models
 {
-    public class Bus
+    public class Bus : IDeepCloneable<Bus>
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -9,5 +11,17 @@
         public BusLine BusLine { get; set; }
         public int ManufacturerId { get; set; }
         public Manufacturer Manufacturer { get; set; }
+
+        public Bus DeepCopy()
+        {
+            Bus deepCopy = new Bus();
+            deepCopy.Name = this.Name;
+            deepCopy.Label = this.Label;
+            if(this.Manufacturer != null)
+            {
+                deepCopy.Manufacturer = this.Manufacturer.DeepCopy();
+            }
+            return deepCopy;
+        }
     }
 }
