@@ -1,22 +1,34 @@
-import { useEffect } from "react";
+import MainHeader from "./components/MainHeader/MainHeader";
+import { Route, Switch, Redirect } from "react-router-dom";
+import React, {useContext} from "react";
+import LoginPage from "./pages/LoginPage";
+import AuthContext from "./store/auth-context";
+import HomePage from "./pages/HomePage";
+import ProfilePage from "./pages/ProfilePage";
+
 function App() {
-  useEffect(() => {
-    fetch("https://localhost:44386/api/users/login", {
-      method: "POST",
-      body: JSON.stringify({
-        username: "CAO",
-        password: "Zdravo",
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    }).then(res => res.json()
-    ).then(data => console.log(data)).catch(err => alert(err.message));
-  }, []);
+  const ctx = useContext(AuthContext);
+
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <React.Fragment>
+      <MainHeader />
+      <Switch>
+        <Route path="/login">
+          {!ctx.isLoggedIn && <LoginPage />}
+          {ctx.isLoggedIn && <Redirect to="/" />}
+        </Route>
+        <Route path="/profile">
+          {ctx.isLoggedIn && <ProfilePage />}
+          {!ctx.isLoggedIn && <Redirect to="login" />}
+        </Route>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="*">
+          <Redirect to="/" />
+        </Route>
+      </Switch>
+    </React.Fragment>
   );
 }
 

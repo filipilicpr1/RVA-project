@@ -1,0 +1,51 @@
+.spinner {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    background: white;
+  }
+  .spinner:after {
+    content: ' ';
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #351188;
+    border-color: #351188 transparent #351188 transparent;
+    animation: spinner 1.2s linear infinite;
+  }
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 35vh;
+    left: 45%;
+    width: 155px;
+    height: 155px;
+    z-index: 100;
+    overflow: hidden;
+    background: white;
+  }
+  
+
+  
+  
