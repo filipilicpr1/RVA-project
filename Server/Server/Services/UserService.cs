@@ -76,6 +76,11 @@ namespace Server.Services
             {
                 throw new Exception(result.Message);
             }
+            bool userExists = await _unitOfWork.Users.FindByUsername(user.Username) != null;
+            if(userExists)
+            {
+                throw new Exception("User with username " + user.Username + " already exists");
+            }
             user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             await _unitOfWork.Users.Add(user);
             await _unitOfWork.Save();
