@@ -11,7 +11,7 @@ namespace Server.Logger
             // logger
             Log.Logger = new LoggerConfiguration()
                             .MinimumLevel.Debug()
-                            .WriteTo.File("logs/logs.txt", rollingInterval: RollingInterval.Year)
+                            .WriteTo.File("logs/logs.txt", rollingInterval: RollingInterval.Year, shared: true)
                             .CreateLogger();
         }
         public void LogMessage(string message, ELogType logType)

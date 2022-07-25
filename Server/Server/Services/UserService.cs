@@ -29,24 +29,30 @@ namespace Server.Services
 
         public async Task<List<LogDTO>> GetLogs(string username)
         {
-            StreamReader sr = new StreamReader("logs/logs" + DateTime.Now.Year.ToString() + ".txt");
-            string line;
-            List<LogDTO> logs = new List<LogDTO>();
-            while((line = await sr.ReadLineAsync()) != null)
+            string fileName = "logs/logs" + DateTime.Now.Year.ToString() + ".txt";
+            using (FileStream fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete))
             {
-                string logUsername = line.Substring(31).Split(' ')[1];
-                if (!String.Equals(username, logUsername))
+                StreamReader sr = new StreamReader(fs);
+                string line;
+                List<LogDTO> logs = new List<LogDTO>();
+                while ((line = await sr.ReadLineAsync()) != null)
                 {
-                    continue;
+                    string logUsername = line.Substring(31).Split(' ')[1];
+                    if (!String.Equals(username, logUsername))
+                    {
+                        continue;
+                    }
+                    LogDTO log = new LogDTO();
+                    log.Timestamp = line.Substring(0, 23);
+                    log.EventType = line.Substring(32, 3);
+                    log.Message = line.Substring(line.LastIndexOf(':') + 2);
+                    logs.Add(log);
                 }
-                LogDTO log = new LogDTO();
-                log.Timestamp = line.Substring(0, 23);
-                log.EventType = line.Substring(32, 3);
-                log.Message = line.Substring(line.LastIndexOf(':') + 2);
-                logs.Add(log);
+                sr.Close();
+                logs.Reverse();
+                return logs;
             }
-            sr.Close();
-            return logs;
+            
         }
 
         public async Task<AuthDTO> Login(LoginDTO loginDTO)
