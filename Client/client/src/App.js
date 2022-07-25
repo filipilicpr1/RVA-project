@@ -6,6 +6,7 @@ import AuthContext from "./store/auth-context";
 import HomePage from "./pages/HomePage";
 import ProfilePage from "./pages/ProfilePage";
 import RegisterPage from "./pages/RegisterPage";
+import LogsPage from "./pages/LogsPage";
 
 function App() {
   const ctx = useContext(AuthContext);
@@ -25,6 +26,10 @@ function App() {
         <Route path="/register">
           {userIsAdmin && <RegisterPage />}
           {!userIsAdmin && <Redirect to="/"/>}
+        </Route>
+        <Route path="/logs">
+          {ctx.isLoggedIn && <LogsPage />}
+          {!ctx.isLoggedIn && <Redirect to="login" />}
         </Route>
         <Route path="/" exact>
           <HomePage />

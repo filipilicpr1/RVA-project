@@ -30,6 +30,11 @@ function Navigation() {
           )}
           {ctx.isLoggedIn && (
             <li>
+              <Link to="/logs">Logs</Link>
+            </li>
+          )}
+          {ctx.isLoggedIn && (
+            <li>
               <Button onClick={ctx.onLogout}>Logout</Button>
             </li>
           )}

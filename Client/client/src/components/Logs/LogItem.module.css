@@ -1,0 +1,24 @@
+.log {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .timestamp {
+    margin-bottom: 0rem;
+    color: #5e2fcc;
+  }
+
+  .eventType {
+    font-weight: bold;
+  }
+
+  .eventType.info {
+    color: green;
+  }
+
+  .eventType.error {
+    color: red;
+  }
