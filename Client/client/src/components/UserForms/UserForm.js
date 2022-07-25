@@ -4,7 +4,7 @@ import Card from "../UI/Card/Card";
 import Input from "../UI/Inputs/Input";
 import Button from "../UI/Button/Button";
 import useHttp from "../../hooks/useHttp";
-import ErrorModal from "../UI/Modals/ErrorModal";
+import InfoModal from "../UI/Modals/InfoModal";
 import LoadingModal from "../UI/Modals/LoadingModal";
 import {useHistory} from 'react-router-dom';
 
@@ -51,6 +51,7 @@ function UserForm(props) {
     const data = await sendRequest(requestConfig);
     if (data.hasError) {
       setErrorData({
+        title : "Error",
         message: data.message,
       });
       return;
@@ -63,8 +64,8 @@ function UserForm(props) {
     <React.Fragment>
       {isLoading && <LoadingModal />}
       {errorData && (
-        <ErrorModal
-          title="Error"
+        <InfoModal
+          title={errorData.title}
           message={errorData.message}
           onConfirm={hideModalHandler}
         />

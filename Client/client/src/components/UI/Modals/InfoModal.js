@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import classes from "./ErrorModal.module.css";
+import classes from "./InfoModal.module.css";
 import Card from "../Card/Card";
 import Button from "../Button/Button";
 
@@ -24,7 +24,7 @@ function Backdrop(props) {
     );
   }
   
-  const ErrorModal = (props) => {
+  const InfoModal = (props) => {
     return (
       <React.Fragment>
         {ReactDOM.createPortal(<Backdrop onClick={props.onConfirm} />, document.getElementById('backdrop-root'))}
@@ -33,4 +33,4 @@ function Backdrop(props) {
     );
   };
 
-export default ErrorModal;
+export default InfoModal;

@@ -1,8 +1,8 @@
-
+import RegisterForm from "../components/UserForms/RegisterForm";
 
 function RegisterPage() {
     return(
-        <h1>Register page</h1>
+        <RegisterForm />
     );
 }
 

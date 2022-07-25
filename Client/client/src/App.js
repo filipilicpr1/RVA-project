@@ -5,10 +5,11 @@ import LoginPage from "./pages/LoginPage";
 import AuthContext from "./store/auth-context";
 import HomePage from "./pages/HomePage";
 import ProfilePage from "./pages/ProfilePage";
+import RegisterPage from "./pages/RegisterPage";
 
 function App() {
   const ctx = useContext(AuthContext);
-
+  const userIsAdmin = ctx.user !== null && ctx.user.userType === "ADMIN";
   return (
     <React.Fragment>
       <MainHeader />
@@ -20,6 +21,10 @@ function App() {
         <Route path="/profile">
           {ctx.isLoggedIn && <ProfilePage />}
           {!ctx.isLoggedIn && <Redirect to="login" />}
+        </Route>
+        <Route path="/register">
+          {userIsAdmin && <RegisterPage />}
+          {!userIsAdmin && <Redirect to="/"/>}
         </Route>
         <Route path="/" exact>
           <HomePage />

@@ -6,7 +6,7 @@ import classes from './Navigation.module.css';
 
 function Navigation() {
     const ctx = useContext(AuthContext);
-
+    const userIsAdmin = ctx.user !== null && ctx.user.userType === "ADMIN";
     return (
       <nav className={classes.nav}>
         <ul>
@@ -21,6 +21,11 @@ function Navigation() {
           {!ctx.isLoggedIn && (
             <li>
               <Link to="/login">Login</Link>
+            </li>
+          )}
+          {userIsAdmin && (
+            <li>
+              <Link to="/register">New User</Link>
             </li>
           )}
           {ctx.isLoggedIn && (
