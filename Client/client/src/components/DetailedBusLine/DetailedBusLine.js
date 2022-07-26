@@ -7,6 +7,7 @@ import InfoModal from "../UI/Modals/InfoModal";
 import LoadingModal from "../UI/Modals/LoadingModal";
 import BusLineCities from "../Cities/BusLineCities";
 import BusLineBuses from '../Buses/BusLineBuses';
+import BusLineActions from "./BusLineActions";
 
 let isInitial = true;
 
@@ -97,6 +98,13 @@ function DetailedBusLine() {
       {busLine !== null && (
         <BusLineBuses
           items={busLine.buses}
+          id={busLine.id}
+          timestamp={busLine.timestamp}
+          onSuccess={successHandler}
+        />
+      )}
+      {busLine !== null && (
+        <BusLineActions
           id={busLine.id}
           timestamp={busLine.timestamp}
           onSuccess={successHandler}

@@ -3,7 +3,7 @@ import classes from "./BusLineCityItem.module.css";
 
 function BusLineCityItem(props) {
   function removeCityHandler() {
-    props.onRemove({cityId:props.id});
+    props.onClick({cityId:props.id});
   }
 
   return (
@@ -15,7 +15,7 @@ function BusLineCityItem(props) {
         <figcaption>{props.countryName}</figcaption>
       </figure>
       <Button className={classes.button} onClick={removeCityHandler}>
-        Remove
+        {props.text}
       </Button>
     </li>
   );

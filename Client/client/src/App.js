@@ -10,6 +10,7 @@ import LogsPage from "./pages/LogsPage";
 import BusLinesPage from "./pages/BusLinesPage";
 import DetailedBusLinePage from "./pages/DetailedBusLinePage";
 import EditBusLinePage from "./pages/EditBusLinePage";
+import AddCityPage from "./pages/AddCityPage";
 
 function App() {
   const ctx = useContext(AuthContext);
@@ -44,6 +45,10 @@ function App() {
         </Route>
         <Route path="/bus-lines/:busLineId/edit">
           {ctx.isLoggedIn && <EditBusLinePage />}
+          {!ctx.isLoggedIn && <Redirect to="/login" />}
+        </Route>
+        <Route path="/bus-lines/:busLineId/add-city">
+          {ctx.isLoggedIn && <AddCityPage />}
           {!ctx.isLoggedIn && <Redirect to="/login" />}
         </Route>
         <Route path="/" exact>

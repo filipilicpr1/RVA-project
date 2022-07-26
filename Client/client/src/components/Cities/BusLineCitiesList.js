@@ -10,7 +10,8 @@ function BusLineCitiesList(props) {
         id={item.id}
         name={item.name}
         countryName={item.country.name}
-        onRemove={props.onRemove}
+        onClick={props.onClick}
+        text={props.text}
       />
     );
   });

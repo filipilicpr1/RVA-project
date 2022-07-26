@@ -39,6 +39,7 @@
     width: 90%;
     max-height: 35rem;
     margin: 6rem auto;
+    margin-bottom: -1rem;
     overflow-y:auto;
 }
 

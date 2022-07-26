@@ -68,7 +68,7 @@ function BusLineCities(props) {
         confirmConflictHandler={confirmConflictHandler}
         closeConflictHandler={closeConflictHandler}
       />
-      <BusLineCitiesList items={props.items} onRemove={removeCityHandler} />
+      <BusLineCitiesList items={props.items} text="Remove" onClick={removeCityHandler} />
     </React.Fragment>
   );
 }
