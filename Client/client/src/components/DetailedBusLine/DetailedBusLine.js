@@ -70,6 +70,10 @@ function DetailedBusLine() {
     await getBusLine();
   }
 
+  function deleteHandler() {
+    history.replace("/bus-lines");
+  }
+
   return (
     <React.Fragment>
       {isLoading && isInitial && <LoadingModal />}
@@ -107,7 +111,7 @@ function DetailedBusLine() {
         <BusLineActions
           id={busLine.id}
           timestamp={busLine.timestamp}
-          onSuccess={successHandler}
+          onSuccess={deleteHandler}
         />
       )}
     </React.Fragment>
