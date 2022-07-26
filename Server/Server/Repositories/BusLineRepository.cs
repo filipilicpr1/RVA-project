@@ -14,7 +14,7 @@ namespace Server.Repositories
 
         public async Task<BusLine> FindByLabel(string label)
         {
-            BusLine busLine = await _dbContext.BusLines.SingleOrDefaultAsync(b => String.Equals(b.Label.ToLower(), label.ToLower()));
+            BusLine busLine = await _dbContext.BusLines.FirstOrDefaultAsync(b => String.Equals(b.Label.ToLower(), label.ToLower()));
             return busLine;
         }
 

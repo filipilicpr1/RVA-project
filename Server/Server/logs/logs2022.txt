@@ -490,3 +490,929 @@
 2022-07-25 22:34:43.762 +02:00 [INF] admin : Getting all bus lines
 2022-07-25 22:34:53.806 +02:00 [INF] admin : Getting all bus lines
 2022-07-25 22:35:03.861 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:35:13.917 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:35:23.974 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:35:34.048 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:35:44.104 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:35:54.202 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:36:04.257 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:36:14.305 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:36:24.367 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:36:34.429 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:36:44.501 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:36:54.551 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:37:04.606 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:37:14.659 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:37:24.717 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:37:34.778 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:37:44.827 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:37:51.802 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:38:01.783 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:38:11.841 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:38:21.897 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:38:31.945 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:38:42.045 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:38:52.668 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:02.720 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:12.791 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:17.092 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:27.730 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:37.787 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:47.853 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:39:57.918 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:40:07.972 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:40:18.030 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:40:28.079 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:40:38.155 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:40:48.219 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:40:58.277 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:41:08.331 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:41:18.388 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:41:28.434 +02:00 [INF] admin : Getting all bus lines
+2022-07-25 22:41:38.489 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:12:09.830 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:12:19.719 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:12:29.761 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:12:39.835 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:12:49.866 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:12:49.985 +02:00 [INF] asdf : Getting all bus lines
+2022-07-26 09:12:59.893 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:13:00.293 +02:00 [INF] asdf : Getting all cities
+2022-07-26 09:13:09.927 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:13:19.960 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:13:29.989 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:13:31.623 +02:00 [INF] asdf : Adding city with id 7 to bus line with id 13
+2022-07-26 09:13:40.020 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:13:50.048 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:14:00.083 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:14:10.105 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:14:20.140 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:14:30.177 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:14:40.197 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:14:50.228 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:15:00.258 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:15:10.283 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:15:20.303 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:15:30.334 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:15:40.356 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:15:50.391 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:16:00.415 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:16:10.443 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:16:20.473 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:16:30.505 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:16:40.540 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:16:50.567 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:17:00.588 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:17:10.612 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:17:20.642 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:17:30.663 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:17:40.691 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:17:50.719 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:18:00.740 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:18:10.767 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:18:21.060 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:18:31.091 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:18:41.114 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:18:51.147 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:19:01.177 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:19:02.461 +02:00 [INF] asdf : Getting bus line with id 2
+2022-07-26 09:19:11.294 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:19:21.328 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:19:31.357 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:19:41.383 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:19:51.412 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:20:01.440 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:20:11.461 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:20:21.486 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:20:31.514 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:20:41.537 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:20:51.568 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:21:01.592 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:21:11.614 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:21:21.638 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:21:31.660 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:21:41.688 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:21:51.714 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:22:01.733 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:22:11.758 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:22:21.784 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:22:31.806 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:22:41.833 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:22:51.903 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:23:01.973 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:23:12.059 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:23:22.088 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:23:32.158 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:23:42.193 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:23:52.317 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:24:02.354 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:24:12.380 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:24:22.588 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:24:32.618 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:24:42.640 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:24:52.669 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:25:02.719 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:25:12.756 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:25:22.790 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:25:32.819 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:25:42.847 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:25:52.880 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:26:02.911 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:26:12.943 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:26:22.974 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:26:33.005 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:26:43.042 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:26:53.064 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:27:03.090 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:27:13.116 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:27:23.153 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:27:33.178 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:27:43.199 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:27:53.231 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:28:03.255 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:28:13.275 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:28:23.311 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:28:33.343 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:28:43.376 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:28:53.410 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:29:03.439 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:29:13.478 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:29:23.518 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:29:33.548 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:29:43.574 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:29:53.606 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:30:03.640 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:30:13.672 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:30:23.705 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:30:33.732 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:30:43.769 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:30:53.808 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:31:03.837 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:31:13.874 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:31:23.905 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:31:33.928 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:31:43.962 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:31:53.992 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:32:04.024 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:32:14.057 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:32:24.084 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:32:34.114 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:32:44.150 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:32:54.180 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:33:04.215 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:33:14.241 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:33:24.263 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:33:34.290 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:33:44.319 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:33:54.347 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:34:04.376 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:34:14.404 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:34:24.437 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:34:34.470 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:34:44.504 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:34:54.539 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:35:04.567 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:35:14.599 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:35:24.631 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:35:34.656 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:35:44.686 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:35:54.711 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:36:04.746 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:36:14.769 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:36:24.794 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:36:34.830 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:36:44.852 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:36:54.879 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:37:04.913 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:37:14.940 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:37:24.970 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:37:34.993 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:37:45.023 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:37:55.050 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:38:05.078 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:38:15.117 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:38:25.153 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:38:35.182 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:38:45.220 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:38:55.242 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:39:05.277 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:39:15.298 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:39:25.331 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:39:35.366 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:39:45.390 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:39:55.429 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:40:05.476 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:40:15.503 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:40:25.544 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:40:35.584 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:40:45.617 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:40:55.645 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:41:05.675 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:41:15.707 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:41:25.743 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:41:35.776 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:41:45.806 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:41:55.828 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:42:05.860 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:42:15.893 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:42:25.920 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:42:35.959 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:42:45.999 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:42:56.026 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:43:06.062 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:43:16.094 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:43:26.132 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:43:36.162 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:43:46.194 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:43:56.230 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:44:06.262 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:44:16.291 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:44:26.310 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:44:36.334 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:44:46.358 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:44:56.384 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:45:06.425 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:45:16.454 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:45:26.484 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:45:36.521 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:45:46.545 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:45:56.581 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:06.609 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:16.632 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:26.662 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:36.688 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:46.726 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:50.300 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:46:55.885 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:05.886 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:08.519 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:18.527 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:28.566 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:38.601 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:48.641 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:49.758 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:47:52.501 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:48:03.336 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:48:13.400 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:48:23.430 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:48:33.476 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:48:43.520 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:48:53.553 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:49:03.581 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:49:13.613 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:49:23.653 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:49:33.716 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:49:43.748 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:49:53.779 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:03.819 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:13.852 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:23.883 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:29.474 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:31.914 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:41.924 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:50:51.962 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:51:01.996 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:51:12.059 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:51:22.080 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:53:07.783 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:53:35.988 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:53:52.850 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:54:28.102 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 09:54:38.144 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 09:57:18.589 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 09:57:23.056 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 09:57:33.066 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 09:57:44.742 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:57:56.290 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:58:12.795 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:58:22.797 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:58:32.829 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:58:42.858 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:58:52.882 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:59:02.904 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:59:12.933 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:59:22.959 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:59:32.991 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:59:43.015 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 09:59:53.053 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:00:03.088 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:00:13.113 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:00:23.141 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:00:33.169 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:00:43.204 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:00:53.239 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:01:03.263 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:01:13.288 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:01:23.328 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:01:33.362 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:01:43.392 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:01:53.420 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:02:03.448 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:02:13.470 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:02:23.502 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:02:33.643 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:02:43.668 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:02:53.693 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:03:03.714 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:03:13.740 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:03:23.768 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:03:33.798 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:03:43.823 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:03:53.854 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:04:03.885 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:04:13.911 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:04:23.938 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:04:33.973 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:04:44.010 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:04:54.040 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:04.077 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:15.108 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:25.131 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:28.653 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:38.667 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:48.710 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:05:58.749 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:06:08.784 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:06:18.814 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:06:28.856 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:06:49.521 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:06:59.525 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:07:09.561 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:07:19.593 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:07:29.633 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:07:39.670 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:07:49.707 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:07:59.736 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:08:09.764 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:08:19.795 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:08:29.825 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:08:39.859 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:08:49.897 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:08:59.942 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:09:09.969 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:09:20.005 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:09:30.036 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:09:40.066 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:09:50.104 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:10:00.136 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:10:10.176 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:10:20.210 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:10:30.243 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:10:40.277 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:10:50.300 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:11:00.333 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:11:10.369 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:11:20.406 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:11:30.454 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:11:40.502 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:11:50.568 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:12:00.630 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:12:10.680 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:12:20.740 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:28:20.861 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:28:22.811 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:28:32.815 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:56:55.306 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 10:57:58.709 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 11:09:27.438 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 11:21:50.574 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:22:00.548 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:22:10.588 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:22:20.622 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:22:30.646 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:22:40.680 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:22:50.713 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:23:00.738 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:23:10.770 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:23:20.799 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:23:30.822 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:23:40.847 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:23:50.873 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:24:00.902 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:24:10.925 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:24:20.952 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:24:30.983 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:24:41.004 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:24:51.036 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:25:01.070 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:25:11.124 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:25:21.195 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:25:31.269 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:25:41.314 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:25:51.361 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:26:01.407 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:26:11.461 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:26:21.510 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:26:31.568 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:26:41.623 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:26:51.663 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:27:01.713 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:27:11.770 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:27:21.811 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:27:31.981 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:27:42.024 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:27:52.059 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:02.115 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:12.153 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:22.213 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:29.172 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:39.167 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:49.206 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:28:59.261 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:29:09.314 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:29:19.406 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:29:29.460 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:29:39.514 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:29:49.587 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:29:59.649 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:30:07.986 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:30:17.995 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:30:23.728 +02:00 [INF] admin : Getting bus line with id 3
+2022-07-26 11:30:27.799 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 11:30:29.469 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:30:39.441 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:30:49.497 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:30:59.581 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:31:09.658 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:31:19.718 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:31:29.787 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:31:39.853 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:31:49.926 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:32:00.003 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:32:10.088 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:32:20.168 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:32:30.244 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:32:40.329 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:32:50.409 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:33:00.481 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:33:10.542 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:38:08.968 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 11:38:11.365 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:38:21.388 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:38:31.481 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:38:41.606 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:38:51.692 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:39:01.887 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:39:06.143 +02:00 [INF] mika : Updating bus line with id 1
+2022-07-26 11:39:11.969 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:39:22.049 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:39:32.130 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 11:39:32.657 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 11:39:36.271 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:39:46.266 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:39:56.334 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:06.413 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:16.495 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:26.562 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:36.000 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:40.671 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:43.645 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:40:53.645 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:41:03.751 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:41:13.839 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:41:23.905 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:41:33.983 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:41:44.078 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:41:54.147 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:42:04.236 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:42:14.299 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:42:24.358 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:42:34.439 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:42:44.504 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:42:54.561 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:43:04.630 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:43:14.709 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:43:24.784 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:43:34.849 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:43:44.926 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:43:54.994 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:44:05.088 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:44:15.140 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:44:25.201 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:44:35.276 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:44:45.368 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:44:55.440 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:45:05.505 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:45:15.590 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:45:25.642 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:45:35.705 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:45:45.737 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:45:55.764 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:46:05.813 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:46:15.932 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:46:25.999 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:46:36.069 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:46:46.147 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:46:56.260 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:47:06.355 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:47:16.424 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:47:26.484 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:47:36.570 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:47:46.632 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:47:56.717 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:48:06.815 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:48:16.888 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:48:26.976 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:48:37.054 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:48:47.113 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:48:57.197 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:49:07.283 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:49:17.365 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:49:27.423 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:49:37.518 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:49:47.603 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:49:57.685 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:50:07.758 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:50:17.819 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:50:27.897 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:50:37.970 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:50:48.042 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:50:58.119 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:51:08.181 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:51:18.242 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:51:28.299 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:51:38.364 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:51:48.427 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:51:58.549 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:52:08.630 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:52:18.706 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:52:28.771 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:52:38.838 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:52:48.920 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:52:58.998 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:53:09.051 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:53:19.114 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:53:29.173 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:53:39.236 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:53:49.309 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:53:59.401 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:54:09.486 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:54:19.555 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:54:29.633 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:54:39.718 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:54:49.775 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:54:59.852 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:55:09.939 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:55:20.012 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:55:30.096 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:55:40.179 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:55:50.264 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:56:00.316 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:56:10.365 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:56:20.471 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:56:30.557 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:56:40.608 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:56:50.673 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:57:00.749 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:57:10.816 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:57:20.892 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:57:30.955 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:57:41.017 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:57:51.083 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:58:01.154 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:58:11.232 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:58:21.300 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:58:31.367 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:58:41.424 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:58:51.490 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:59:01.568 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:59:11.623 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:59:21.690 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:59:31.760 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:59:41.877 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 11:59:51.945 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:00:02.009 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:00:12.073 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:00:22.139 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:00:32.208 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:00:42.283 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:00:52.350 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:02.433 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:03.904 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:08.717 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:18.710 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:28.782 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:38.855 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:48.966 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:01:59.050 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:02:09.125 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:02:19.187 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:02:29.260 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:02:39.355 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:02:49.418 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:02:59.487 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:03:09.553 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:03:19.635 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:03:29.696 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:03:39.764 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:03:49.834 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:03:59.924 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:04:09.985 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:04:20.053 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:04:30.129 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:04:40.197 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:04:50.278 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:05:00.371 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:05:10.457 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:05:20.523 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:05:30.590 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:05:40.653 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:05:50.751 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:06:00.805 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:06:10.868 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:06:20.952 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:06:31.018 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:06:41.078 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:06:51.138 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:07:01.199 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:07:11.275 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:07:21.350 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:07:31.422 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:07:41.501 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:07:51.564 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:08:01.628 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:08:11.689 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:08:21.771 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:08:31.835 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:08:41.886 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:08:51.949 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:09:02.001 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:09:12.072 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:09:22.153 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:09:32.216 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:09:42.269 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:09:52.350 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:10:02.421 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:10:12.492 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:10:22.557 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:10:32.645 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:10:42.720 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:10:52.816 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:11:02.886 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:11:12.966 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:11:23.032 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:11:33.098 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:11:43.167 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:11:53.221 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:12:03.283 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:12:13.349 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:12:23.445 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:12:33.499 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:12:43.573 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:12:53.623 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:13:03.670 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:13:13.759 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:13:23.805 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:13:33.836 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:13:43.870 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:13:53.912 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:14:03.987 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:14:14.072 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:14:24.133 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:14:34.193 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:14:44.263 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:14:54.347 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:15:04.425 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:15:14.489 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:15:24.555 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:15:34.626 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:15:44.690 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:15:54.746 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:16:04.804 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:16:14.863 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:16:24.923 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:16:34.977 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:16:45.084 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:16:55.156 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:17:05.230 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:17:15.283 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:17:25.336 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:17:35.395 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:17:45.449 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:17:55.500 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:18:05.562 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:18:15.631 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:18:25.697 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:18:35.757 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:18:45.812 +02:00 [INF] admin : Getting bus line with id 13
+2022-07-26 12:26:58.645 +02:00 [INF] asdf : Getting all bus lines
+2022-07-26 12:26:59.941 +02:00 [INF] asdf : Getting bus line with id 1
+2022-07-26 12:44:10.666 +02:00 [INF] asdf : Getting bus line with id 1
+2022-07-26 12:59:07.462 +02:00 [INF] asdf : Getting bus line with id 1
+2022-07-26 13:01:25.955 +02:00 [INF] asdf : Getting bus line with id 1
+2022-07-26 13:06:02.171 +02:00 [INF] admin : Getting all bus lines
+2022-07-26 13:06:09.117 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:06:10.986 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:11:22.900 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:12:33.008 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:12:33.078 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:13:37.671 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:14:08.352 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:14:57.447 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:00.490 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:06.968 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:08.305 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:10.884 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:11.520 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:28.584 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:38.573 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:48.636 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:15:58.706 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:16:09.626 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:16:19.696 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:16:29.783 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:16:39.850 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:16:41.296 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:17:00.060 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:18:52.203 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:18:56.029 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:19:04.318 +02:00 [INF] admin : Updating bus line with id 1
+2022-07-26 13:19:06.368 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:19:16.367 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:19:26.461 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:19:36.544 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:19:47.138 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:19:52.943 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:20:03.651 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:20:13.725 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:20:23.779 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:20:33.867 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:20:33.917 +02:00 [INF] mika : Updating bus line with id 1
+2022-07-26 13:20:42.756 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:20:55.341 +02:00 [INF] mika : Updating bus line with id 1
+2022-07-26 13:21:04.439 +02:00 [INF] admin : Updating bus line with id 1
+2022-07-26 13:21:04.672 +02:00 [ERR] admin : Conflict
+2022-07-26 13:21:12.198 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:21:16.154 +02:00 [INF] admin : Updating bus line with id 1
+2022-07-26 13:21:18.012 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:21:28.035 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:21:38.126 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:21:48.215 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:21:58.288 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:22:04.973 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:34:22.185 +02:00 [INF] admin : Getting bus line with id 1
+2022-07-26 13:34:27.359 +02:00 [INF] admin : Updating bus line with id 1
+2022-07-26 13:34:27.524 +02:00 [ERR] admin : Sequence contains more than one element.
+2022-07-26 13:36:24.350 +02:00 [INF] admin : Updating bus line with id 1
+2022-07-26 13:36:25.107 +02:00 [ERR] admin : Bus line with label 24M already exists
+2022-07-26 13:36:50.163 +02:00 [INF] admin : Updating bus line with id 1
+2022-07-26 13:36:50.300 +02:00 [ERR] admin : Bus line with label 24M already exists
+2022-07-26 13:41:34.670 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 13:41:39.129 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:41:41.088 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:41:49.555 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 13:41:49.847 +02:00 [ERR] pera : Bus line with label 309I already exists
+2022-07-26 13:42:17.836 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 13:42:20.882 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 13:42:22.207 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:42:23.385 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:48:04.391 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:50:23.771 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:51:28.253 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:53:35.507 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:53:37.925 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:53:39.183 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:54:35.638 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 13:54:45.548 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 13:54:45.726 +02:00 [ERR] pera : Conflict
+2022-07-26 13:54:50.777 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:54:52.680 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:55:05.998 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:55:07.546 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:55:08.863 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:55:19.695 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 13:55:29.307 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 13:55:29.475 +02:00 [ERR] pera : Conflict
+2022-07-26 13:56:05.897 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:57:41.299 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:57:51.281 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:58:01.371 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:58:11.486 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:58:21.546 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:58:31.612 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:58:41.683 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:58:51.752 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:59:02.434 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:59:12.511 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:59:22.614 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:59:32.712 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:59:42.785 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 13:59:52.873 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:00:03.032 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:00:13.116 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:00:23.209 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:00:33.286 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:00:43.422 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:00:53.499 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:01:03.588 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:01:13.656 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:01:23.715 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:01:33.804 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:01:43.888 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:01:53.967 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:02:04.075 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:02:14.145 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:02:19.711 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:02:29.410 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:02:36.204 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:02:36.308 +02:00 [ERR] pera : Conflict
+2022-07-26 14:02:40.343 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:02:47.431 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:02:58.546 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:03:03.861 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:03:03.993 +02:00 [ERR] pera : Conflict
+2022-07-26 14:03:05.931 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:03:15.299 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:04:49.929 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:06:51.732 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:08:13.927 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:08:45.737 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:09:24.912 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:09:35.169 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:09:35.293 +02:00 [ERR] pera : Conflict
+2022-07-26 14:09:37.812 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:09:37.941 +02:00 [ERR] pera : Conflict
+2022-07-26 14:09:45.276 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:09:55.274 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:10:05.348 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:10:15.415 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:10:25.487 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:10:35.601 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:10:42.909 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:10:51.471 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:10:59.984 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:11:00.110 +02:00 [ERR] pera : Conflict
+2022-07-26 14:11:01.657 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:11:04.728 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:11:08.643 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:11:19.881 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:11:25.517 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:11:25.659 +02:00 [ERR] pera : Conflict
+2022-07-26 14:11:27.698 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:11:31.059 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:11:39.082 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:11:48.099 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:11:48.212 +02:00 [ERR] pera : Conflict
+2022-07-26 14:11:50.402 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:11:50.523 +02:00 [ERR] pera : Bus line with label 24M already exists
+2022-07-26 14:12:05.301 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:12:05.458 +02:00 [ERR] pera : Conflict
+2022-07-26 14:12:22.581 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:12:25.113 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:12:29.937 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:12:31.366 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:12:32.734 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:12:38.076 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:12:40.078 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:12:41.300 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:12:46.942 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:12:52.514 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:12:52.622 +02:00 [ERR] pera : Conflict
+2022-07-26 14:12:59.183 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:13:00.416 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 14:13:07.092 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 14:13:12.068 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:13:12.195 +02:00 [ERR] pera : Conflict
+2022-07-26 14:13:14.994 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:13:15.132 +02:00 [ERR] pera : Bus line with label 24m already exists
+2022-07-26 14:13:23.823 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:13:23.948 +02:00 [ERR] pera : Conflict
+2022-07-26 14:13:25.762 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:13:25.931 +02:00 [ERR] pera : Bus line with label 24m already exists
+2022-07-26 14:13:32.745 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:13:32.850 +02:00 [ERR] pera : Conflict
+2022-07-26 14:13:35.255 +02:00 [INF] pera : Updating bus line with id 1
+2022-07-26 14:13:36.148 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:34:59.106 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 15:35:06.064 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:35:07.740 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 15:35:09.565 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:35:11.671 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:35:27.976 +02:00 [INF] flyer : Getting all bus lines
+2022-07-26 15:35:46.898 +02:00 [INF] flyer : Updating bus line with id 3
+2022-07-26 15:35:54.533 +02:00 [INF] pera : Updating bus line with id 3
+2022-07-26 15:35:54.654 +02:00 [ERR] pera : Conflict
+2022-07-26 15:35:59.115 +02:00 [INF] pera : Updating bus line with id 3
+2022-07-26 15:36:00.541 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:36:08.119 +02:00 [INF] flyer : Updating bus line with id 3
+2022-07-26 15:36:10.516 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:36:13.273 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:36:22.288 +02:00 [INF] pera : Updating bus line with id 3
+2022-07-26 15:36:22.453 +02:00 [ERR] pera : Bus line with label 309I already exists
+2022-07-26 15:36:26.428 +02:00 [INF] pera : Updating bus line with id 3
+2022-07-26 15:36:27.640 +02:00 [INF] pera : Getting bus line with id 3
+2022-07-26 15:36:29.941 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 15:36:40.815 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 15:36:50.875 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 15:36:53.145 +02:00 [INF] flyer : Updating bus line with id 1
+2022-07-26 15:37:00.929 +02:00 [INF] pera : Getting all bus lines
+2022-07-26 15:37:10.755 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:37:20.747 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:37:30.813 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:37:40.873 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:37:50.933 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:38:01.000 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:38:11.088 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:38:21.166 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:38:31.239 +02:00 [INF] pera : Getting bus line with id 1
+2022-07-26 15:38:41.297 +02:00 [INF] pera : Getting bus line with id 1
