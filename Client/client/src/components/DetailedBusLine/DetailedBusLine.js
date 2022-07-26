@@ -6,6 +6,7 @@ import { useHistory, useParams } from "react-router-dom";
 import InfoModal from "../UI/Modals/InfoModal";
 import LoadingModal from "../UI/Modals/LoadingModal";
 import BusLineCities from "../Cities/BusLineCities";
+import BusLineBuses from '../Buses/BusLineBuses';
 
 let isInitial = true;
 
@@ -45,24 +46,6 @@ function DetailedBusLine() {
 
 
   useEffect(() => {
-    // async function getBusLine() {
-    //   const requestConfig = {
-    //     url: `https://localhost:44386/api/buslines/${busLineId}`,
-    //     headers: {
-    //       Authorization: "Bearer " + token,
-    //     },
-    //   };
-    //   const data = await sendRequest(requestConfig);
-    //   if (data.hasError) {
-    //     setErrorData({
-    //       title: "Error",
-    //       message: data.message,
-    //     });
-    //     return;
-    //   }
-    //   setBusLine(data);
-    //   isInitial = false;
-    // }
     if (isInitial) {
       getBusLine();
     }
@@ -106,6 +89,14 @@ function DetailedBusLine() {
       {busLine !== null && (
         <BusLineCities
           items={busLine.cities}
+          id={busLine.id}
+          timestamp={busLine.timestamp}
+          onSuccess={successHandler}
+        />
+      )}
+      {busLine !== null && (
+        <BusLineBuses
+          items={busLine.buses}
           id={busLine.id}
           timestamp={busLine.timestamp}
           onSuccess={successHandler}

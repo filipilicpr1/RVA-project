@@ -1,25 +1,24 @@
-import BusLineCitiesList from "./BusLineCitiesList";
+import BusLineBusesList from "./BusLineBusesList";
 import React, { useState, useContext } from "react";
 import AuthContext from "../../store/auth-context";
 import useHttp from "../../hooks/useHttp";
 import ConflictModal from "../UI/Modals/ConflictModal";
 
-function BusLineCities(props) {
+function BusLineBuses(props) {
   const ctx = useContext(AuthContext);
   const { isLoading, sendRequest } = useHttp();
   const [infoData, setInfoData] = useState(null);
   const [conflictData, setConflictData] = useState(null);
 
-  async function removeCityHandler(removeData) {
+  async function removeBusHandler(removeData) {
     const requestConfig = {
-      url: `https://localhost:44386/api/buslines/${props.id}/remove-city`,
-      method: "PUT",
+      url: `https://localhost:44386/api/buses/${removeData.busId}`,
+      method: "DELETE",
       headers: {
         "Content-Type": "application/json",
         Authorization: "Bearer " + ctx.token,
       },
       body: JSON.stringify({
-        cityId: removeData.cityId,
         timestamp: props.timestamp,
         override: removeData.override === true,
       }),
@@ -36,7 +35,7 @@ function BusLineCities(props) {
     setConflictData(null);
     setInfoData({
       title: data.hasError ? "Error" : "Success",
-      message: data.hasError ? data.message : "City removed successfully",
+      message: data.hasError ? data.message : "Bus removed successfully",
     });
   }
 
@@ -50,7 +49,7 @@ function BusLineCities(props) {
   }
 
   async function confirmConflictHandler() {
-    await removeCityHandler(conflictData.data);
+    await removeBusHandler(conflictData.data);
   }
 
   function closeConflictHandler() {
@@ -68,9 +67,9 @@ function BusLineCities(props) {
         confirmConflictHandler={confirmConflictHandler}
         closeConflictHandler={closeConflictHandler}
       />
-      <BusLineCitiesList items={props.items} onRemove={removeCityHandler} />
+      <BusLineBusesList items={props.items} onRemove={removeBusHandler} />
     </React.Fragment>
   );
 }
 
-export default BusLineCities;
+export default BusLineBuses;

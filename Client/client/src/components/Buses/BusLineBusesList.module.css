@@ -1,0 +1,26 @@
+.buses {
+    max-width: 35rem;
+    width: 90%;
+    max-height: 35rem;
+    margin: 2rem auto;
+    overflow-y:auto;
+  }
+  
+  .buses ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .title {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 2rem;
+    color: #351188;
+  }
+
+  
