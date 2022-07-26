@@ -20,7 +20,7 @@ namespace Server.Repositories
 
         public BusLine FindByLabelSync(string label)
         {
-            BusLine busLine = _dbContext.BusLines.SingleOrDefault(b => String.Equals(b.Label,label));
+            BusLine busLine = _dbContext.BusLines.FirstOrDefault(b => String.Equals(b.Label,label));
             return busLine;
         }
 

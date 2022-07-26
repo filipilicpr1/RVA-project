@@ -55,7 +55,7 @@ namespace Server.Services
             return _mapper.Map<List<DisplayCityDTO>>(cities);
         }
 
-        public async Task<List<DisplayCityDTO>> GetAvailable(int id)
+        public async Task<AvailableCityDTO> GetAvailable(int id)
         {
             BusLine busLine = await _unitOfWork.BusLines.FindComplete(id);
             if(busLine == null)
@@ -80,7 +80,10 @@ namespace Server.Services
                     availableCities.Add(city);
                 }
             }
-            return _mapper.Map<List<DisplayCityDTO>>(availableCities);
+            AvailableCityDTO availableCityDTO = new AvailableCityDTO();
+            availableCityDTO.Timestamp = busLine.Timestamp;
+            availableCityDTO.Cities = _mapper.Map<List<DisplayCityDTO>>(availableCities);
+            return availableCityDTO;
         }
     }
 }

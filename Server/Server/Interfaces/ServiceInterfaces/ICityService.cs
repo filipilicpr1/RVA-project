@@ -5,7 +5,7 @@ namespace Server.Interfaces.ServiceInterfaces
     public interface ICityService
     {
         Task<List<DisplayCityDTO>> GetAllDistinct();
-        Task<List<DisplayCityDTO>> GetAvailable(int id);
+        Task<AvailableCityDTO> GetAvailable(int id);
         Task<DisplayCityDTO> CreateCity(NewCityDTO newCityDTO);
         Task DeleteCity(int id);
     }

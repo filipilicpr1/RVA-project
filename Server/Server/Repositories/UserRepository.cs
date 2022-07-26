@@ -14,7 +14,7 @@ namespace Server.Repositories
 
         public async Task<User> FindByUsername(string username)
         {
-            User user = await _dbContext.Users.SingleOrDefaultAsync<User>(u => String.Equals(u.Username, username));
+            User user = await _dbContext.Users.FirstOrDefaultAsync<User>(u => String.Equals(u.Username, username));
             return user;
         }
     }

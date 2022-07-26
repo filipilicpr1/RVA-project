@@ -83,8 +83,8 @@ namespace Server.Controllers
             try
             {
                 _logger.LogMessage(User.Identity.Name + " : Getting all available cities for bus line with id " + busLineId, ELogType.INFO);
-                List<DisplayCityDTO> displayCityDTOs = await _cityService.GetAvailable(busLineId);
-                return Ok(displayCityDTOs);
+                AvailableCityDTO availableCityDTO = await _cityService.GetAvailable(busLineId);
+                return Ok(availableCityDTO);
             }
             catch (Exception e)
             {

@@ -14,7 +14,7 @@ namespace Server.Repositories
 
         public Manufacturer FindByNameSync(string name)
         {
-            Manufacturer manufacturer = _dbContext.Manufacturers.SingleOrDefault(m => String.Equals(m.Name,name));
+            Manufacturer manufacturer = _dbContext.Manufacturers.FirstOrDefault(m => String.Equals(m.Name,name));
             return manufacturer;
         }
 

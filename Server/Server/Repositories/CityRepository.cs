@@ -14,13 +14,13 @@ namespace Server.Repositories
 
         public async Task<City> FindByName(string name)
         {
-            City city = await _dbContext.Cities.SingleOrDefaultAsync(c => String.Equals(c.Name.ToLower(), name.ToLower()));
+            City city = await _dbContext.Cities.FirstOrDefaultAsync(c => String.Equals(c.Name.ToLower(), name.ToLower()));
             return city;
         }
 
         public City FindByNameSync(string name)
         {
-            City city = _dbContext.Cities.SingleOrDefault(c => String.Equals(c.Name, name));
+            City city = _dbContext.Cities.FirstOrDefault(c => String.Equals(c.Name, name));
             return city;
         }
 

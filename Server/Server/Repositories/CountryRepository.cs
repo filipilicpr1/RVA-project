@@ -14,7 +14,7 @@ namespace Server.Repositories
 
         public Country FindByNameSync(string name)
         {
-            Country country = _dbContext.Countries.SingleOrDefault(c => String.Equals(c.Name, name));
+            Country country = _dbContext.Countries.FirstOrDefault(c => String.Equals(c.Name, name));
             return country;
         }
 
