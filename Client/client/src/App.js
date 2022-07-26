@@ -9,6 +9,7 @@ import RegisterPage from "./pages/RegisterPage";
 import LogsPage from "./pages/LogsPage";
 import BusLinesPage from "./pages/BusLinesPage";
 import DetailedBusLinePage from "./pages/DetailedBusLinePage";
+import EditBusLinePage from "./pages/EditBusLinePage";
 
 function App() {
   const ctx = useContext(AuthContext);
@@ -37,8 +38,12 @@ function App() {
           {ctx.isLoggedIn && <BusLinesPage />}
           {!ctx.isLoggedIn && <Redirect to="/login" />}
         </Route>
-        <Route path="/bus-lines/:busLineId">
+        <Route path="/bus-lines/:busLineId" exact>
           {ctx.isLoggedIn && <DetailedBusLinePage />}
+          {!ctx.isLoggedIn && <Redirect to="/login" />}
+        </Route>
+        <Route path="/bus-lines/:busLineId/edit">
+          {ctx.isLoggedIn && <EditBusLinePage />}
           {!ctx.isLoggedIn && <Redirect to="/login" />}
         </Route>
         <Route path="/" exact>

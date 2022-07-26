@@ -3,7 +3,6 @@
     width: 90%;
     max-height: 35rem;
     margin: 7rem auto;
-    animation: logs-appear 1s ease-out forwards;
     overflow-y:auto;
   }
   
@@ -22,17 +21,5 @@
   .title h1 {
     font-size: 2rem;
     color: #351188;
-  }
-  
-  @keyframes logs-appear {
-    from {
-      opacity: 0;
-      transform: translateY(3rem);
-    }
-  
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
   

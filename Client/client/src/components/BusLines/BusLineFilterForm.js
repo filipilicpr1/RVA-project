@@ -1,10 +1,30 @@
 import React,{useRef} from 'react';
 import Button from '../UI/Button/Button';
 import Input from '../UI/Inputs/Input';
+import Select from '../UI/Inputs/Select';
 
+const BUSLINE_TYPES = [
+  {
+    id: 1,
+    name: "",
+  },
+  {
+    id: 2,
+    name: "GRADSKA",
+  },
+  {
+    id: 3,
+    name: "MEDJUGRADSKA",
+  },
+  {
+    id: 4,
+    name: "INTERNACIONALNA",
+  }
+];
 
 function BusLineFilterForm(props) {
     const busLineLabelRef = useRef();
+    const busLineTypeRef = useRef();
     const busLabelRef = useRef();
     const busNameRef = useRef();
     const cityRef = useRef();
@@ -12,6 +32,7 @@ function BusLineFilterForm(props) {
     function applyFilterHandler() {
         props.onApply({
             busLineLabel : busLineLabelRef.current.value.trim().toLowerCase(),
+            busLineType : busLineTypeRef.current.value,
             busName : busNameRef.current.value.trim().toLowerCase(),
             busLabel : busLabelRef.current.value.trim().toLowerCase(),
             city : cityRef.current.value.trim().toLowerCase()
@@ -27,6 +48,12 @@ function BusLineFilterForm(props) {
             label="Label"
             isValid={true}
             touched={true}
+          />
+          <Select
+            ref={busLineTypeRef}
+            id="busLineType"
+            label="Type:"
+            items={BUSLINE_TYPES}
           />
           <Input
             ref={busNameRef}

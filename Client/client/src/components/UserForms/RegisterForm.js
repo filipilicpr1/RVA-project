@@ -13,11 +13,11 @@ import { useHistory } from "react-router-dom";
 const USER_TYPES = [
   {
     id: 1,
-    content: "GUEST",
+    name: "GUEST",
   },
   {
     id: 2,
-    content: "ADMIN",
+    name: "ADMIN",
   },
 ];
 

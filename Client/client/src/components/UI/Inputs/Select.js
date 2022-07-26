@@ -6,7 +6,7 @@ const Select = React.forwardRef((props, ref) => {
     <div className={classes.control}>
       <label htmlFor={props.id}>{props.label}</label>
       <select ref={ref} id={props.id}>
-        {props.items.map(item => <option key={item.id}>{item.content}</option>)}
+        {props.items.map(item => <option key={item.id}>{item.name}</option>)}
       </select>
     </div>
   );

@@ -18,7 +18,8 @@ function Backdrop(props) {
           <p>{props.message}</p>
         </div>
         <footer className={classes.actions}>
-          <Button onClick={props.onClick}>Okay</Button>
+          <Button onClick={props.onConfirm}>Okay</Button>
+          {props.onClose !== undefined && <Button onClick={props.onClose}>Close</Button>}
         </footer>
       </Card>
     );
@@ -27,8 +28,8 @@ function Backdrop(props) {
   const InfoModal = (props) => {
     return (
       <React.Fragment>
-        {ReactDOM.createPortal(<Backdrop onClick={props.onConfirm} />, document.getElementById('backdrop-root'))}
-        {ReactDOM.createPortal(<ModalOverlay title={props.title} message={props.message} onClick={props.onConfirm} />, document.getElementById('overlay-root'))}
+        {ReactDOM.createPortal(<Backdrop onClick={props.onClose !== undefined ? props.onClose : props.onConfirm} />, document.getElementById('backdrop-root'))}
+        {ReactDOM.createPortal(<ModalOverlay title={props.title} message={props.message} onConfirm={props.onConfirm} onClose={props.onClose}/>, document.getElementById('overlay-root'))}
       </React.Fragment>
     );
   };

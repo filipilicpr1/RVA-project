@@ -13,7 +13,12 @@ function useHttp() {
     });
     let data = await response.json();
     if (!response.ok) {
-        data = {...data, hasError: true, message : data.message !== null ? data.message : "Server error"};
+      data = {
+        ...data,
+        hasError: true,
+        message: data.message !== null ? data.message : "Server error",
+        hasConflict: data.message === "Conflict",
+      };
     }
 
     setIsLoading(false);

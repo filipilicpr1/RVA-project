@@ -13,6 +13,7 @@ function filterBusLines(busLines, filters) {
     const busLineLabelFilter = item.label
       .toLowerCase()
       .includes(filters.busLineLabel);
+    const busLineTypeFilter = filters.busLineType === "" || item.busLineType === filters.busLineType;
     const cityFilter =
       filters.city === "" ||
       item.cities.filter((city) =>
@@ -28,7 +29,7 @@ function filterBusLines(busLines, filters) {
       item.buses.filter((bus) =>
         bus.label.toLowerCase().includes(filters.busLabel)
       ).length !== 0;
-    return busLineLabelFilter && cityFilter && busNameFilter && busLabelFilter;
+    return busLineLabelFilter && busLineTypeFilter && cityFilter && busNameFilter && busLabelFilter;
   });
 }
 
@@ -42,6 +43,7 @@ function BusLines() {
   const [busLines, setBusLines] = useState(null);
   const initialFilter = {
     busLineLabel: "",
+    busLineType: "",
     busName: "",
     busLabel: "",
     city: "",
@@ -54,6 +56,10 @@ function BusLines() {
   if (busLines !== null) {
     filteredBusLines = filterBusLines(busLines, filter);
   }
+  
+  useEffect(() => {
+    isInitial = true;
+  }, []);
 
   useEffect(() => {
     async function getBusLines() {
