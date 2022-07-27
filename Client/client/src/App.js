@@ -14,6 +14,7 @@ import AddCityPage from "./pages/AddCityPage";
 import NewBusLinePage from "./pages/NewBusLinePage";
 import NewCityPage from "./pages/NewCityPage";
 import AddBusPage from "./pages/AddBusPage";
+import DeleteCityPage from "./pages/DeleteCityPage";
 
 function App() {
   const ctx = useContext(AuthContext);
@@ -40,6 +41,10 @@ function App() {
         </Route>
         <Route path="/new-city" exact>
           {ctx.isLoggedIn && <NewCityPage />}
+          {!ctx.isLoggedIn && <Redirect to="/login" />}
+        </Route>
+        <Route path="/delete-city" exact>
+          {ctx.isLoggedIn && <DeleteCityPage />}
           {!ctx.isLoggedIn && <Redirect to="/login" />}
         </Route>
         <Route path="/bus-lines" exact>
