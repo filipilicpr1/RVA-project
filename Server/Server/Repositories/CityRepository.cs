@@ -24,6 +24,12 @@ namespace Server.Repositories
             return city;
         }
 
+        public async Task<List<City>> GetAllComplete()
+        {
+            List<City> cities = await _dbContext.Cities.Include(c => c.Country).ToListAsync();
+            return cities;
+        }
+
         public async Task<List<City>> GetAllDistinct()
         {
             List<string> res = await _dbContext.Cities.Select(c => c.Name.ToLower()).Distinct().ToListAsync();

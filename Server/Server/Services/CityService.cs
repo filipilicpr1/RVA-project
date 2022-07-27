@@ -49,9 +49,9 @@ namespace Server.Services
             await _unitOfWork.Save();
         }
 
-        public async Task<List<DisplayCityDTO>> GetAllDistinct()
+        public async Task<List<DisplayCityDTO>> GetAll()
         {
-            List<City> cities = await _unitOfWork.Cities.GetAllDistinct();
+            List<City> cities = await _unitOfWork.Cities.GetAllComplete();
             return _mapper.Map<List<DisplayCityDTO>>(cities);
         }
 

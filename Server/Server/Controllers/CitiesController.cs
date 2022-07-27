@@ -28,7 +28,7 @@ namespace Server.Controllers
             try
             {
                 _logger.LogMessage(User.Identity.Name + " : Getting all cities", ELogType.INFO);
-                List<DisplayCityDTO> displayCityDTOs = await _cityService.GetAllDistinct();
+                List<DisplayCityDTO> displayCityDTOs = await _cityService.GetAll();
                 return Ok(displayCityDTOs);
             }
             catch (Exception e)
