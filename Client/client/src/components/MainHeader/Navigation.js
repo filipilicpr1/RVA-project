@@ -35,6 +35,11 @@ function Navigation() {
           )}
           {ctx.isLoggedIn && (
             <li>
+              <Link to="/bus-lines/new">New Bus Line</Link>
+            </li>
+          )}
+          {ctx.isLoggedIn && (
+            <li>
               <Link to="/logs">Logs</Link>
             </li>
           )}

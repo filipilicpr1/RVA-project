@@ -18,8 +18,8 @@ function Backdrop(props) {
           <p>{props.message}</p>
         </div>
         <footer className={classes.actions}>
-          <Button onClick={props.onConfirm}>Okay</Button>
-          {props.onClose !== undefined && <Button onClick={props.onClose}>Close</Button>}
+          <Button onClick={props.onConfirm} className={classes.button}>Okay</Button>
+          {props.onClose !== undefined && <Button onClick={props.onClose} className={classes.button}>Close</Button>}
         </footer>
       </Card>
     );

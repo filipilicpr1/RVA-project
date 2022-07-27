@@ -9,6 +9,7 @@ function BusLineBusesList(props) {
         key={item.id}
         id={item.id}
         name={item.name}
+        label={item.label}
         manufacturerName={item.manufacturer.name}
         onRemove={props.onRemove}
       />

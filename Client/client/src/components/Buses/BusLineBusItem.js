@@ -12,7 +12,7 @@ function BusLineBusItem(props) {
             <blockquote>
               <p>{props.name}</p>
             </blockquote>
-            <figcaption>{props.manufacturerName}</figcaption>
+            <figcaption>{props.manufacturerName} [{props.label}]</figcaption>
           </figure>
           <Button className={classes.button} onClick={removeBusHandler}>
             Remove

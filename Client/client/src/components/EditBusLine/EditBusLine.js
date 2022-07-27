@@ -99,7 +99,7 @@ function EditBusLine() {
         confirmConflictHandler={confirmConflictHandler}
         closeConflictHandler={closeConflictHandler}
       />
-      {busLine !== null && <EditBusLineForm onSubmit={editBusLineHandler} />}
+      {busLine !== null && <EditBusLineForm onSubmit={editBusLineHandler} title="Edit Bus Line" />}
     </React.Fragment>
   );
 }

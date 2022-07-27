@@ -2,6 +2,7 @@ import React,{useRef} from 'react';
 import Button from '../UI/Button/Button';
 import Input from '../UI/Inputs/Input';
 import Select from '../UI/Inputs/Select';
+import classes from './BusLineFilterForm.module.css';
 
 const BUSLINE_TYPES = [
   {
@@ -79,10 +80,10 @@ function BusLineFilterForm(props) {
             isValid={true}
             touched={true}
           />
-          <Button onClick={applyFilterHandler}>
+          <Button onClick={applyFilterHandler} className={classes.button}>
             Apply
           </Button> 
-          <Button onClick={props.onRemove}>
+          <Button onClick={props.onRemove} className={classes.button}>
             Remove
           </Button> 
         </React.Fragment>

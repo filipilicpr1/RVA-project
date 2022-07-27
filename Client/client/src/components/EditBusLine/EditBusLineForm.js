@@ -46,7 +46,7 @@ function EditBusLineForm(props) {
     return(
         <Card className={classes.edit}>
         <section className={classes.title}>
-          <h1>Edit Bus Line</h1>
+          <h1>{props.title}</h1>
         </section>
         <form onSubmit={submitHandler}>
           <Input
